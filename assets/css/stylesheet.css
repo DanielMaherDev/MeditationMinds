@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
 /* defaults */
 
 * {
@@ -6,13 +8,17 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Kanit', sans-serif;
+}
 
 header {
-    background-color: rgba(247,168,166, 0.6);
+    background-color: rgba(247, 168, 166, 0.6);
 }
+
 /* burger menu*/
 
-.navbar{
+.navbar {
     min-height: 70px;
     display: flex;
     justify-content: space-between;
@@ -20,28 +26,34 @@ header {
     padding: 0 24px;
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 60px;
 }
 
-.nav-link{
-transition: 0.7s ease;
+.nav-link {
+    transition: 0.7s ease;
 
 }
 
-.nav-item{
+.nav-item a {
+    text-decoration: none;
+    color: #000020;
+}
+
+.nav-item {
     list-style-type: none;
+
 }
 
-.hamburger{
+.hamburger {
     display: none;
     cursor: pointer;
 }
 
-.bar{
+.bar {
     display: block;
     width: 25px;
     height: 3px;
@@ -51,33 +63,72 @@ transition: 0.7s ease;
     background-color: white;
 }
 
-@media screen and (max-width:768px) {
-    .hamburger{
-        display: block;       
+#breath {
+    height: 400px;
+    /* code copied from https://alvarotrigo.com/blog/animated-backgrounds-css/ */
+    width: 100%;
+    display: flex;
+    background-size: 300% 300%;
+    background-image: linear-gradient(-45deg,
+            rgba(59, 173, 227, 1) 0%,
+            rgba(87, 111, 230, 1) 25%);
+    animation: AnimateBG 20s ease infinite;
+}
+
+@keyframes AnimateBG {
+    0% {
+        background-position: 0% 50%
     }
 
-    .hamburger.active .bar:nth-child(2){
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+
+.subsection-title {
+    text-align: center;
+    width: 100%;
+    font-size: 2.5rem;
+    padding-top: 20px;
+    color: white;
+
+}
+
+@media screen and (max-width:768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
 
-    .hamburger.active .bar:nth-child(1){
+    .hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
 
-    .hamburger.active .bar:nth-child(3){
+    .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-    
-    .nav-menu{
+
+    .nav-menu {
         position: fixed;
         left: -100%;
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: rgba(247,168,166, 1);
+        background-color: rgba(247, 168, 166, 1);
         Width: 100%;
         text-align: center;
         transition: 0.3s;
+    }
 
+    .nav-menu.active {
+        left: 0;
     }
 }
