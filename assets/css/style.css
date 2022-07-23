@@ -14,10 +14,11 @@ body {
 }
 
 /* logo */
-#logo{
+#logo {
     text-decoration: none;
     color: darkslategray;
 }
+
 /* navigation */
 
 .navbar {
@@ -67,56 +68,57 @@ body {
 
 /* burger menu*/
 
-    .hamburger {
-        display: block;
-    }
+.hamburger {
+    display: block;
+}
 
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-    }
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
 
-    .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
 
-    .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
 
-    .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        Width: 100%;
-        text-align: center;
-        transition: 0.3s;
-    }
+.nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    Width: 100%;
+    text-align: center;
+    transition: 0.3s;
+}
 
-    .nav-menu.active {
-        left: 0;
-    }
+.nav-menu.active {
+    left: 0;
+}
 
 
 /* hero section */
 
 
-#hero-image{
+#hero-image {
     height: 500px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
 }
 
-#cover-text{
-    
+#cover-text {
+
     text-align: center;
     margin: 0 auto;
     width: 80%;
 }
 
-#cover-text h2, #cover-text h3{
+#cover-text h2,
+#cover-text h3 {
     font-size: x-large;
     font-weight: lighter;
     padding-top: 20px;
@@ -126,24 +128,47 @@ body {
 .subsection-title {
     text-align: center;
     width: 100%;
-    font-size: 2.5rem;
-    padding-top: 20px;
+    font-size: 1.5rem;
+    padding: 20px 0;
+    text-transform: uppercase;
 }
 
 .subsection-text {
     width: 90%;
-    margin: 10px 20px;
+    margin: 20px 20px 40px 20px;
     text-align: center;
 }
 
 
-.info-section{
+.info-section {
     margin-top: 40px;
 }
 
-.info-section h2 hr{
+.subsection-title hr {
     width: 50%;
     margin: 0 auto;
+}
+
+.subsection-button {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.subsection-button a {
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 2%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+.subsection-button a:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
 }
 
 
