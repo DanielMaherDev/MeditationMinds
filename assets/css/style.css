@@ -198,7 +198,33 @@ body {
 }
 
 #about-us{
-    
+    width: 80%;
+    margin: 20px auto;
+    text-align: justify;
+    padding: 10px;
+}
+
+#about-us h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#self-guided h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#club-photo{
+    width: 100%;
+}
+
+#club-photo img{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
 }
 /* for desktop 
 .hamburger {
