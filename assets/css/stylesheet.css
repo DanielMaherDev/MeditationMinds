@@ -12,12 +12,24 @@ body {
     font-family: 'Bona Nova', serif;
     font-weight: 300;
 }
+#logo{
+    text-decoration: none;
+    color: darkslategray;
 
+}
 #hero-image{
     height: 600px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
+}
+
+#cover-text{
+    
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px
+
 }
 
 /* burger menu*/
@@ -36,6 +48,7 @@ body {
     align-items: center;
     gap: 60px;
     height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .nav-link {
@@ -75,7 +88,6 @@ body {
     width: 100%;
     font-size: 2.5rem;
     padding-top: 20px;
-
 }
 
 .subsection-text {
@@ -87,7 +99,6 @@ body {
 #breath {
     margin-top: 40px;
 }
-@media screen and (max-width:768px) {
     .hamburger {
         display: block;
     }
@@ -110,7 +121,6 @@ body {
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: rgba(247, 168, 166, 1);
         Width: 100%;
         text-align: center;
         transition: 0.3s;
@@ -119,4 +129,3 @@ body {
     .nav-menu.active {
         left: 0;
     }
-}
