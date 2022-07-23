@@ -12,27 +12,13 @@ body {
     font-family: 'Bona Nova', serif;
     font-weight: 300;
 }
+
+/* logo */
 #logo{
     text-decoration: none;
     color: darkslategray;
-
 }
-#hero-image{
-    height: 600px;
-    width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
-    background-size: cover;
-}
-
-#cover-text{
-    
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 20px
-
-}
-
-/* burger menu*/
+/* navigation */
 
 .navbar {
     min-height: 70px;
@@ -66,11 +52,6 @@ body {
 
 }
 
-.hamburger {
-    display: none;
-    cursor: pointer;
-}
-
 .bar {
     display: block;
     width: 25px;
@@ -83,22 +64,9 @@ body {
 
 
 
-.subsection-title {
-    text-align: center;
-    width: 100%;
-    font-size: 2.5rem;
-    padding-top: 20px;
-}
 
-.subsection-text {
-    width: 90%;
-    margin: 10px 20px;
-    text-align: center;
-}
+/* burger menu*/
 
-#breath {
-    margin-top: 40px;
-}
     .hamburger {
         display: block;
     }
@@ -129,3 +97,58 @@ body {
     .nav-menu.active {
         left: 0;
     }
+
+
+/* hero section */
+
+
+#hero-image{
+    height: 500px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#cover-text{
+    
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#cover-text h2, #cover-text h3{
+    font-size: x-large;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+
+
+.subsection-title {
+    text-align: center;
+    width: 100%;
+    font-size: 2.5rem;
+    padding-top: 20px;
+}
+
+.subsection-text {
+    width: 90%;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+
+.info-section{
+    margin-top: 40px;
+}
+
+.info-section h2 hr{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/* for desktop 
+.hamburger {
+    display: none;
+    cursor: pointer;
+}*/
