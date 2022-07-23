@@ -171,6 +171,17 @@ body {
     border: 2px solid black;
 }
 
+#breath{
+    background: url('../images/breath.jpg') no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    border-bottom: 1px solid black;
+}
+
+.info-inner{
+    background-color: rgba(255, 255, 255, 0.7);
+    height: inherit;
+}
 
 /* for desktop 
 .hamburger {
