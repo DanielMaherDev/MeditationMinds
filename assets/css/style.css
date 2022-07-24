@@ -247,25 +247,27 @@ footer{
     margin-bottom: 20px;
 }
 
+#club-photo-container{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#center-about{
+    width:100%;
+}
+
 #club-photo{
     border: 1px solid black;
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    background: url('../images/our-club.jpg') no-repeat center center;
+    background-size: cover;
 }
 
-#club-photo img{
-    border-radius: 50%;
-}
-
-#club-photo img{
-    width: 90%;
-    margin: 0 auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  
-}
 /* for desktop 
 .hamburger {
     display: none;
