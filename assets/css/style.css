@@ -282,6 +282,53 @@ footer {
         display: none;
     }
 
+    .navbar {
+        min-height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 24px;
+    }
+    
+    .nav-menu {
+        display: inline;
+        align-items: unset;
+        height: 50px;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding-top: 25px;
+       position: relative;
+        Width: 100%;
+        transition: 0.3s;
+        left: 0;
+        top: 0;
+    }
+    
+    .nav-link {
+        transition: 0.7s ease;
+    
+    }
+    
+    .nav-item a {
+        text-decoration: none;
+        color: #000020;
+    }
+    
+    .nav-item a:hover {
+        text-decoration: none;
+        color: #0000ff;
+    }
+    
+    .nav-item {
+        list-style-type: none;
+        width: fit-content;
+        display: inline;
+        float: left;
+    }
+
+    .nav-section{
+        margin-top: 0px;
+    }
+
 
 
     /* self guided section */
