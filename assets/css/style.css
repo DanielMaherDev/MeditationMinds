@@ -142,6 +142,7 @@ body {
 
 .info-section {
     padding-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .subsection-title hr {
@@ -171,6 +172,15 @@ body {
     border: 2px solid black;
 }
 
+/* footer */
+
+footer ul li{
+    display: inline-block;
+}
+
+footer ul li i{ 
+}
+
 #breath{
     background: url('../images/breath.jpg') no-repeat center center;
     background-size: cover;
@@ -197,6 +207,10 @@ body {
     height: inherit;
 }
 
+#self-guided{
+    margin-top: 50px;
+}
+
 #about-us{
     width: 80%;
     margin: 20px auto;
@@ -212,6 +226,7 @@ body {
 #self-guided h2{
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #club-photo{
