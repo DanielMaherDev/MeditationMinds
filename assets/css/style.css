@@ -35,6 +35,7 @@ body {
     gap: 60px;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.9);
+    padding-top: 25px;
 }
 
 .nav-link {
@@ -45,6 +46,11 @@ body {
 .nav-item a {
     text-decoration: none;
     color: #000020;
+}
+
+.nav-item a:hover {
+    text-decoration: none;
+    color: #0000ff;
 }
 
 .nav-item {
@@ -276,8 +282,3 @@ footer{
     background-size: cover;
 }
 
-/* for desktop 
-.hamburger {
-    display: none;
-    cursor: pointer;
-}*/
