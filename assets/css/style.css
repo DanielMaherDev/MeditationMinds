@@ -329,6 +329,30 @@ footer {
         margin-top: 0px;
     }
 
+    .nav-menu a {
+        font-size: medium;
+        margin: 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav-menu li a{
+        font-size: medium;
+    }
+   
+
+      .nav-section:hover .subnav-content {
+        display: block;
+      }
+
+      .subnav {
+        float: left;
+        overflow: hidden;
+      }
+      
+      .subnav-content{
+        display: none;
+      }
 
 
     /* self guided section */
