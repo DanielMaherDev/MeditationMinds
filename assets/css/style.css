@@ -114,6 +114,20 @@ body {
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*here image zoom specs */
+
+@keyframes hero-zoom{
+    from{
+        transform:scale(1);
+    }
+    to{
+        transform:scale(1.1);
+    }
 }
 
 #cover-text {
@@ -428,7 +442,7 @@ footer {
 /* For large screen sizes*/
 
 @media screen and (min-width: 1200px) {
- #hero-image{
+ #hero-outer{
         position: relative;
     }
 
