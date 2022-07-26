@@ -115,18 +115,27 @@ body {
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
     animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-fill-mode: forwards;
 }
 
 /*here image zoom specs */
 
-@keyframes hero-zoom{
-    from{
-        transform:scale(1);
+    #cover-text {
+        position: absolute;
+        right: 5%;
+        top: 15%;
+        width: fit-content;
+        padding: 5%;
+        background: rgba(255, 255, 255, 0.4);
     }
-    to{
-        transform:scale(1.1);
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
     }
 }
 
@@ -290,7 +299,7 @@ footer {
     background-size: cover;
 }
 
-.subnavbtn{
+.subnavbtn {
     display: none;
 }
 
@@ -304,49 +313,48 @@ footer {
     }
 
     .navbar {
-    margin-top: 15px;
+        margin-top: 15px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 0 24px;
     }
 
-   .navbar ul{
-    padding-top: 15px;
-}
-
-    .navbar li{
+    .navbar ul {
+        padding-top: 15px;
     }
-    
+
+    .navbar li {}
+
     .nav-menu {
         display: inline;
         align-items: unset;
         height: 50px;
         background-color: rgba(255, 255, 255, 0.9);
         padding-top: 25px;
-       position: relative;
+        position: relative;
         Width: 100%;
         transition: 0.3s;
         left: 0;
         top: 0;
         width: fit-content;
     }
-    
+
     .nav-link {
         transition: 0.7s ease;
-    
+
     }
-    
+
     .nav-item a {
         text-decoration: none;
         color: #000020;
     }
-    
+
     .nav-item a:hover {
         text-decoration: none;
         color: #0000ff;
     }
-    
+
     .nav-item {
         list-style-type: none;
         width: fit-content;
@@ -354,7 +362,7 @@ footer {
         float: left;
     }
 
-    .nav-section{
+    .nav-section {
         margin-top: 0px;
     }
 
@@ -365,27 +373,27 @@ footer {
         color: darkslategrey;
     }
 
-    .nav-menu li a{
+    .nav-menu li a {
         font-size: medium;
     }
-   
 
-      .nav-section:hover .subnav-content {
+
+    .nav-section:hover .subnav-content {
         display: block;
-      }
+    }
 
-      .subnav {
+    .subnav {
         float: left;
         overflow: hidden;
-      }
-      
-      .subnav-content{
+    }
+
+    .subnav-content {
         display: none;
         background-color: rgba(255, 255, 255, 0.8);
         height: 200px;
-      }
+    }
 
-      .subnavbtn{
+    .subnavbtn {
         display: inline;
         width: fit-content;
     }
@@ -398,6 +406,7 @@ footer {
         text-align: justify;
         padding: 10px;
     }
+
     /* self guided section */
 
     #self-guided>div {
@@ -407,7 +416,7 @@ footer {
         position: relative;
     }
 
-   
+
     .subsection-button {
         position: absolute;
         bottom: 25px;
@@ -415,46 +424,39 @@ footer {
     }
 
 
-    a:hover + .subnav-content {
+    a:hover+.subnav-content {
         display: block;
     }
 
-    .subnav-content:hover{
+    .subnav-content:hover {
         display: block;
     }
 
-    .subnav-content h6{
+    .subnav-content h6 {
         display: none;
     }
 
-    .subnav-content li{
-        width:200px;
+    .subnav-content li {
+        width: 200px;
         display: block;
         margin: 20px 0;
     }
 
-    .subnav-content li a{
-    font-size: 18px;
+    .subnav-content li a {
+        font-size: 18px;
     }
-    
+
 }
 
 /* For large screen sizes*/
 
 @media screen and (min-width: 1200px) {
- #hero-outer{
+    #hero-outer {
         position: relative;
     }
 
-    #cover-text{
-        position: absolute;
-        right: 5%;
-        top: 15%;
-        width: fit-content;
-        padding: 5%;
-        background: rgba(255, 255, 255, 0.6);
-    }
-    #cover-text h2, #cover-text h3{
+    #cover-text h2,
+    #cover-text h3 {
         padding-top: 0px;
     }
 }
