@@ -113,30 +113,8 @@ body {
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
-    animation-name: hero-zoom;
-    animation-duration: 10s;
-    animation-fill-mode: forwards;
 }
 
-/*here image zoom specs */
-
-    #cover-text {
-        position: absolute;
-        right: 5%;
-        top: 15%;
-        width: fit-content;
-        padding: 5%;
-        background: rgba(255, 255, 255, 0.4);
-    }
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.1);
-    }
-}
 
 #cover-text {
 
@@ -387,6 +365,15 @@ footer {
     .subnavbtn {
         display: inline;
         width: fit-content;
+    }
+
+    #cover-text {
+        position: absolute;
+        right: 5%;
+        top: 15%;
+        width: fit-content;
+        padding: 5%;
+        background: rgba(255, 255, 255, 0.4);
     }
 
     /* self guided section */
