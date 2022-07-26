@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: darkslategrey
 }
 
 body {
@@ -167,7 +168,7 @@ body {
 }
 
 .subsection-button a {
-    background-color: black;
+    background-color: darkslategrey;
     margin: 0 auto;
     border-radius: 2%;
     text-transform: uppercase;
@@ -178,14 +179,16 @@ body {
 
 .subsection-button a:hover {
     background-color: white;
-    color: black;
+    color: darkslategrey;
     border: 2px solid black;
 }
 
 /* footer */
 
 footer {
-    height: 10px;
+    height: 40px;
+    clear: both;
+
 }
 
 .social-networks {
@@ -197,8 +200,8 @@ footer {
 }
 
 .social-networks i {
-    font-size: 100%;
-    margin: 1%;
+    font-size: 150%;
+    margin: 2.5%;
     padding: 5px 5px;
     color: #3a3a3a;
 }
@@ -231,12 +234,12 @@ footer {
 }
 
 #self-guided {
-    margin-top: 50px;
+    margin-top: 75px;
 }
 
 #about-us {
     width: 80%;
-    margin: 20px auto;
+    margin: 50px auto;
     text-align: justify;
     padding: 10px;
 }
@@ -287,11 +290,18 @@ footer {
     }
 
     .navbar {
-        min-height: 70px;
+    margin-top: 15px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 0 24px;
+    }
+
+   .navbar ul{
+    padding-top: 15px;
+}
+
+    .navbar li{
     }
     
     .nav-menu {
@@ -338,7 +348,7 @@ footer {
         font-size: medium;
         margin: 10px;
         text-decoration: none;
-        color: black;
+        color: darkslategrey;
     }
 
     .nav-menu li a{
@@ -366,6 +376,14 @@ footer {
         width: fit-content;
     }
 
+    /* about us */
+
+    #about-us {
+        width: 50%;
+        margin: 20px auto;
+        text-align: justify;
+        padding: 10px;
+    }
     /* self guided section */
 
     #self-guided>div {
@@ -375,6 +393,7 @@ footer {
         position: relative;
     }
 
+   
     .subsection-button {
         position: absolute;
         bottom: 25px;
@@ -404,4 +423,24 @@ footer {
     font-size: 18px;
     }
     
+}
+
+/* For large screen sizes*/
+
+@media screen and (min-width: 1200px) {
+ #hero-image{
+        position: relative;
+    }
+
+    #cover-text{
+        position: absolute;
+        right: 5%;
+        top: 15%;
+        width: fit-content;
+        padding: 5%;
+        background: rgba(255, 255, 255, 0.6);
+    }
+    #cover-text h2, #cover-text h3{
+        padding-top: 0px;
+    }
 }
