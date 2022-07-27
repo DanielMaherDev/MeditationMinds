@@ -201,8 +201,8 @@ footer {
 }
 
 .social-networks i {
-    font-size: 100%;
-    margin: 1%;
+    font-size: 1.5rem;
+    margin: 2.5%;
     padding: 5px 5px;
     color: #3a3a3a;
 }
@@ -352,6 +352,7 @@ footer {
 
     .nav-section:hover .subnav-content {
         display: block;
+       
     }
 
     .subnav {
@@ -361,8 +362,10 @@ footer {
 
     .subnav-content {
         display: none;
-        background-color: rgba(255, 255, 255, 0.8);
+        background-color: rgba(255, 255, 255, 0.9);
         height: 200px;
+        position: absolute;
+        z-index: 2;
     }
 
     .subnavbtn {
@@ -414,7 +417,7 @@ footer {
     }
 
     .subnav-content li a {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     #about-us{
