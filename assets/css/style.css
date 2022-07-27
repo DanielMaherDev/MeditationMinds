@@ -325,7 +325,7 @@ body {
 
     .nav-item a:hover {
         text-decoration: none;
-        text-shadow: 0 0 2px black; 
+        text-shadow: 0 0 1px black; 
         color:rgba(53, 53, 53, 0.9)
     }
 
@@ -384,6 +384,10 @@ body {
         background: rgba(255, 255, 255, 0.4);
     }
 
+    /*about us */
+    #about-us p{
+        font-size: 1.1rem;
+    }
     /* self guided section */
 
     #self-guided {
