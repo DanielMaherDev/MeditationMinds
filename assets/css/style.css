@@ -55,9 +55,14 @@ body {
     color: #000020;
 }
 
+.nav-item .active{
+    border-bottom: 1px solid #000020;
+}
+
 .nav-item a:hover {
     text-decoration: none;
-    color: #0000ff;
+    border-bottom: 1px solid #000020;
+
 }
 
 .nav-item {
