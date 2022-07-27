@@ -121,7 +121,10 @@ body {
     text-align: center;
     margin: 0 auto;
     width: 80%;
-}
+ }
+    
+
+    
 
 #cover-text h2 {
     font-size: x-large;
@@ -298,9 +301,9 @@ footer {
     .nav-menu {
         display: inline;
         align-items: unset;
-        height: 50px;
+        height: 100%;
         background-color: rgba(255, 255, 255, 0.9);
-        padding-top: 25px;
+        padding-top: 0px;
         position: relative;
         Width: 100%;
         transition: 0.3s;
@@ -412,6 +415,11 @@ footer {
 
     .subnav-content li a {
         font-size: 18px;
+    }
+
+    #about-us{
+        width: 50%;
+        padding-top:30px;
     }
     
 }
