@@ -325,7 +325,8 @@ body {
 
     .nav-item a:hover {
         text-decoration: none;
-        color: #0000ff;
+        text-shadow: 0 0 2px black; 
+        color:rgba(53, 53, 53, 0.9)
     }
 
     .nav-item {
