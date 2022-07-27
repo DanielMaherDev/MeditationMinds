@@ -121,10 +121,10 @@ body {
     text-align: center;
     margin: 0 auto;
     width: 80%;
- }
-    
+}
 
-    
+
+
 
 #cover-text h2 {
     font-size: x-large;
@@ -188,8 +188,9 @@ body {
 
 /* footer */
 
-footer {
-    height: 10px;
+#social-header {
+    width: 100%;
+    text-align: center;
 }
 
 .social-networks {
@@ -297,7 +298,7 @@ footer {
         align-items: center;
         padding: 0 24px;
     }
-    
+
     .nav-menu {
         display: inline;
         align-items: unset;
@@ -352,7 +353,7 @@ footer {
 
     .nav-section:hover .subnav-content {
         display: block;
-       
+
     }
 
     .subnav {
@@ -383,6 +384,10 @@ footer {
     }
 
     /* self guided section */
+
+    #self-guided {
+        height: 500px;
+    }
 
     #self-guided>div {
         width: 33.33%;
@@ -420,9 +425,9 @@ footer {
         font-size: 16px;
     }
 
-    #about-us{
+    #about-us {
         width: 50%;
-        padding-top:30px;
+        padding-top: 30px;
     }
-    
+
 }
