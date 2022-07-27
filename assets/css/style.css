@@ -287,6 +287,25 @@ body {
     display: none;
 }
 
+#back-to-top{
+    position: fixed;
+    left: 5%;
+    bottom: 5%;
+    width: fit-content;
+
+}
+
+#back-to-top a{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: darkslategray;
+    border: 1.5px solid black;
+    border-radius: 5%;
+}
+#back-to-top a i{
+   margin-left: 10px;
+}
 /* For medium screen sizes*/
 
 @media screen and (min-width: 768px) {
