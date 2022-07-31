@@ -318,6 +318,7 @@ body {
 #back-to-top a i{
    color:white;
 }
+
 /* For medium screen sizes*/
 
 @media screen and (min-width: 768px) {
@@ -479,6 +480,10 @@ body {
 
     #backtotop-text:hover{
         color:darkslategray
+    }
+    /* self guided */
+    .self-guided .subsection{
+        min-height: 600px;
     }
     
 }
