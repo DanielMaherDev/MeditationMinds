@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: darkslategray
 }
 
 body {
@@ -52,16 +53,16 @@ body {
 
 .nav-item a {
     text-decoration: none;
-    color: #000020;
+    color: darkslategray;
 }
 
 .nav-item .active{
-    border-bottom: 1px solid #000020;
+    border-bottom: 1px solid darkslategray;
 }
 
 .nav-item a:hover {
     text-decoration: none;
-    border-bottom: 1px solid #000020;
+    border-bottom: 1px solid darkslategray;
 
 }
 
@@ -176,7 +177,7 @@ body {
 }
 
 .subsection-button a {
-    background-color: black;
+    background-color: darkslategray;
     margin: 0 auto;
     border-radius: 2%;
     text-transform: uppercase;
@@ -187,8 +188,8 @@ body {
 
 .subsection-button a:hover {
     background-color: white;
-    color: black;
-    border: 2px solid black;
+    color: darkslategray;
+    border: 2px solid darkslategray;
 }
 
 /* footer */
@@ -210,7 +211,7 @@ body {
     font-size: 1.5rem;
     margin: 2.5%;
     padding: 5px 5px;
-    color: #3a3a3a;
+    color: darkslategray;
 }
 
 
@@ -218,21 +219,21 @@ body {
     background: url('../images/breath.jpg') no-repeat center center;
     background-size: cover;
     height: 300px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid darkslategray;
 }
 
 #body-scan {
     background: url('../images/bodyscan.jpg') no-repeat center center;
     background-size: cover;
     height: 300px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid darkslategray;
 }
 
 #release {
     background: url('../images/reset.jpg') no-repeat center center;
     background-size: cover;
     height: 350px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid darkslategray;
 }
 
 .info-inner {
@@ -275,7 +276,7 @@ body {
 }
 
 #club-photo {
-    border: 1px solid black;
+    border: 1px solid darkslategrey;
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -289,10 +290,19 @@ body {
 
 #back-to-top{
     position: fixed;
-    left: 5%;
-    bottom: 5%;
+    left: 1%;
+    bottom: 2%;
     width: fit-content;
+    opacity: rgba(0,0,0,0.5);
+}
 
+#back-to-top a:hover{
+    background: rgba(255, 255, 255, 1);
+    color: darkslategray;
+}
+
+#back-to-top a:hover i{
+    color: darkslategray;
 }
 
 #back-to-top a{
@@ -300,11 +310,12 @@ body {
     text-decoration: none;
     color: white;
     background-color: darkslategray;
-    border: 1.5px solid black;
+    border: 1.5px solid darkslategray;
     border-radius: 5%;
 }
 #back-to-top a i{
    margin-left: 10px;
+   color:white;
 }
 /* For medium screen sizes*/
 
@@ -344,12 +355,12 @@ body {
 
     .nav-item a {
         text-decoration: none;
-        color: #000020;
+        color: darkslategray;
     }
 
     .nav-item a:hover {
         text-decoration: none;
-        text-shadow: 0 0 1px black; 
+        text-shadow: 0 0 1px darkslategray; 
         color:rgba(53, 53, 53, 0.9)
     }
 
@@ -368,7 +379,7 @@ body {
         font-size: medium;
         margin: 10px;
         text-decoration: none;
-        color: black;
+        color: darkslategray;
     }
 
     .nav-menu li a {
