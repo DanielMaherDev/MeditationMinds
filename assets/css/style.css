@@ -355,6 +355,10 @@ body {
     margin: 0 auto;
 }
 
+.guide h2{
+    text-align: center;
+}
+
 /* For medium screen sizes*/
 
 @media screen and (min-width: 768px) {
