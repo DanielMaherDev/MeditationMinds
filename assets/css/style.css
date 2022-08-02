@@ -360,6 +360,26 @@ body {
     padding-top: 15px;
 }
 
+.guide-content-container{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+    height: 100%;
+}
+
+.guide-content-container>div{
+width:50%;
+}
+
+.guide-gallery{
+    background-color: black;
+}
+.guide-text{
+    background-color: red;
+}
 /* For medium screen sizes*/
 
 @media screen and (min-width: 768px) {
