@@ -56,7 +56,7 @@ body {
     color: darkslategray;
 }
 
-.nav-item .active{
+.nav-item .active {
     border-bottom: 1px solid darkslategray;
 }
 
@@ -288,26 +288,28 @@ body {
     display: none;
 }
 
-#backtotop-text{display: none;
+#backtotop-text {
+    display: none;
 }
-#back-to-top{
+
+#back-to-top {
     position: fixed;
     left: 1%;
     bottom: 2%;
     width: fit-content;
-    opacity: rgba(0,0,0,0.5);
+    opacity: rgba(0, 0, 0, 0.5);
 }
 
-#back-to-top a:hover{
+#back-to-top a:hover {
     background: rgba(255, 255, 255, 1);
     color: darkslategray;
 }
 
-#back-to-top a:hover i{
+#back-to-top a:hover i {
     color: darkslategray;
 }
 
-#back-to-top a{
+#back-to-top a {
     padding: 5px 10px;
     text-decoration: none;
     color: white;
@@ -315,8 +317,41 @@ body {
     border: 1.5px solid darkslategray;
     border-radius: 5%;
 }
-#back-to-top a i{
-   color:white;
+
+#back-to-top a i {
+    color: white;
+}
+
+
+/*self-guided page */
+
+.self-guided {
+    margin-top: 20px;
+}
+
+#pageheader {
+    width: 100%;
+}
+
+.self-guided h1 {
+    font-size: 1.2em;
+    margin: 0 auto;
+    padding: 10px;
+    width: fit-content;
+    border-bottom: 2px solid darkslategray;
+    font-weight: 300;
+}
+
+.self-guided .subsection {
+    min-height: 600px;
+    margin: 10px 0;
+}
+
+.guide{
+    width:90%;
+    height: 90%;
+    margin: 0 auto;
+    background-color:rgba(255, 255, 255, 0.8);
 }
 
 /* For medium screen sizes*/
@@ -362,8 +397,8 @@ body {
 
     .nav-item a:hover {
         text-decoration: none;
-        text-shadow: 0 0 1px darkslategray; 
-        color:rgba(53, 53, 53, 0.9)
+        text-shadow: 0 0 1px darkslategray;
+        color: rgba(53, 53, 53, 0.9)
     }
 
     .nav-item {
@@ -422,9 +457,10 @@ body {
     }
 
     /*about us */
-    #about-us p{
+    #about-us p {
         font-size: 1.1rem;
     }
+
     /* self guided section */
 
     #self-guided {
@@ -473,17 +509,14 @@ body {
     }
 
 
-    #backtotop-text{
+    #backtotop-text {
         display: contents;
-        color:white;
+        color: white;
     }
 
-    #backtotop-text:hover{
-        color:darkslategray
+    #backtotop-text:hover {
+        color: darkslategray
     }
-    /* self guided */
-    .self-guided .subsection{
-        min-height: 600px;
-    }
-    
+
+
 }
