@@ -365,6 +365,10 @@ body {
     margin: 0 auto;
     padding-top: 5px;
 }
+
+.quote{
+    font-size: 0.85em;
+}
 /* For medium screen sizes*/
 
 @media screen and (min-width: 768px) {
@@ -546,11 +550,9 @@ body {
     }
 
     .guide-gallery {
-        background-color: black;
     }
 
     .guide-text {
-        background-color: red;
     }
 
     #body-scan .guide-content-container{
