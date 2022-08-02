@@ -345,13 +345,14 @@ body {
 .self-guided .subsection {
     min-height: 600px;
     margin: 10px 0;
+    padding-top: 20px;
 }
 
 .guide{
-    width:90%;
-    height: 90%;
-    margin: 0 auto;
+    width:95%;
+    height: 500px;
     background-color:rgba(255, 255, 255, 0.8);
+    margin: 0 auto;
 }
 
 /* For medium screen sizes*/
