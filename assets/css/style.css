@@ -348,38 +348,18 @@ body {
     padding-top: 20px;
 }
 
-.guide{
-    width:95%;
+.guide {
+    width: 95%;
     height: 560px;
-    background-color:rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.75);
     margin: 0 auto;
 }
 
-.guide h2{
+.guide h2 {
     text-align: center;
     padding-top: 15px;
 }
 
-.guide-content-container{
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: stretch;
-	align-content: stretch;
-    height: 100%;
-}
-
-.guide-content-container>div{
-width:50%;
-}
-
-.guide-gallery{
-    background-color: black;
-}
-.guide-text{
-    background-color: red;
-}
 /* For medium screen sizes*/
 
 @media screen and (min-width: 768px) {
@@ -544,5 +524,28 @@ width:50%;
         color: darkslategray
     }
 
+    /* self-guided page */
+
+    .guide-content-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+        height: 100%;
+    }
+
+    .guide-content-container>div {
+        width: 50%;
+    }
+
+    .guide-gallery {
+        background-color: black;
+    }
+
+    .guide-text {
+        background-color: red;
+    }
 
 }
