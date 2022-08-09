@@ -383,6 +383,11 @@ body {
     background-size: cover;
     border-bottom: 1px solid darkslategray;
 }
+
+.exercise li{
+line-height: 1.4em;
+margin-bottom: 10px;
+}
 /* For medium screen sizes*/
 
 @media screen and (min-width: 768px) {
