@@ -408,9 +408,14 @@ body {
     border-bottom: 1px solid darkslategray;
 }
 
-.guide-video-container {width: 100%;
-    padding: 0;
-margin: 0;
+.guide-video-container {
+    width: 100%;
+
+}
+
+.guide-video{
+    width: 80%;
+    margin: 0 auto;
 }
 
 .guide-text {
@@ -419,11 +424,11 @@ margin: 0;
     padding-bottom: 50px;
 }
 
-.guide-text p{
+.guide-text p {
     padding-bottom: 10px;
 }
 
-.guide-text h3{
+.guide-text h3 {
     padding-top: 10px;
 }
 
@@ -608,13 +613,17 @@ margin: 0;
         width: 50%;
     }
 
-    #breath .guide-text,
-    #reset .guide-text {
+    .guide-text {
+        padding: 0 50px;
+    }
+
+    #breath-guide .guide-text,
+    #reset-guide .guide-text {
         border-right: 1px solid black;
     }
 
-    #body-scan .guide-video {
-        border-right: 1px solid black;
+    #body-scan-guide .guide-text {
+        border-left: 1px solid black;
     }
 
     #body-scan-guide .guide-content-container {
