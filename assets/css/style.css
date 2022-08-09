@@ -221,18 +221,7 @@ body {
     height: 300px;
 
 }
-/* self guided animations */
-#breath:hover h3{
-    animation-name: textbreath;
-    animation-duration: 3s;
-}
 
-@keyframes textbreath {
-        0%   {letter-spacing: normal;}
-        50% {letter-spacing: 0.7em;}
-        100%   {letter-spacing: normal;}
-}
-    
 #body-scan {
     background: url('../images/bodyscan.jpg') no-repeat center center;
     background-size: cover;
@@ -425,7 +414,7 @@ body {
 
 }
 
-.guide-video{
+.guide-video {
     width: 80%;
     margin: 0 auto;
 }
@@ -641,4 +630,69 @@ body {
     #body-scan-guide .guide-content-container {
         flex-direction: row-reverse;
     }
+
+    /* self guided animations */
+    #breath:hover h3 {
+        animation-name: textbreath;
+        animation-duration: 3s;
+    }
+
+    @keyframes textbreath {
+        0% {
+            letter-spacing: normal;
+        }
+
+        50% {
+            letter-spacing: 0.7em;
+        }
+
+        100% {
+            letter-spacing: normal;
+        }
+    }
+
+    #scanner {
+        width: 100%;
+        background-image: linear-gradient(to right, #1E5631, #76ba1b);
+        height: 3px;
+        position: absolute;
+        display: none;
+        border-radius: 5px;
+    }
+
+    #body-scan:hover #scanner {
+        animation-name: scanner;
+        animation-duration: 6s;
+        display: block;
+        z-index: 2;
+
+    }
+
+    @keyframes scanner {
+        0% {
+            top: 0;
+        }
+
+        25% {
+            background-image: linear-gradient(to right, #486523, #159a41);
+
+        }
+
+        50% {
+            top: 100%;
+            background-image: linear-gradient(to right, #76ba1b, #1E5631);
+        }
+
+        75% {
+            background-image: linear-gradient(to right, #486523, #159a41);
+        }
+
+        100% {
+            top: 0;
+            background-image: linear-gradient(to right, #1E5631, #76ba1b);
+        }
+    }
+
+
+
 }
