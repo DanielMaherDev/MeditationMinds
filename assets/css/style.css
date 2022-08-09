@@ -228,7 +228,7 @@ body {
     border-bottom: 1px solid darkslategray;
 }
 
-#release {
+#reset {
     background: url('../images/reset.jpg') no-repeat center center;
     background-size: cover;
     height: 350px;
@@ -603,7 +603,7 @@ margin: 0;
     }
 
     #breath .guide-text,
-    #release .guide-text {
+    #reset .guide-text {
         border-right: 1px solid black;
     }
 
