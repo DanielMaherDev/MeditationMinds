@@ -402,7 +402,7 @@ body {
     border-bottom: 1px solid darkslategray;
 }
 
-.guide-gallery-container {width: 100%;
+.guide-video-container {width: 100%;
     padding: 0;
 margin: 0;
 }
@@ -410,6 +410,7 @@ margin: 0;
 .guide-text {
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 /* For medium screen sizes*/
@@ -598,7 +599,7 @@ margin: 0;
         border-right: 1px solid black;
     }
 
-    #body-scan .guide-gallery {
+    #body-scan .guide-video {
         border-right: 1px solid black;
     }
 
