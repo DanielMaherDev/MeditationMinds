@@ -413,6 +413,14 @@ margin: 0;
     padding-bottom: 50px;
 }
 
+.guide-text p{
+    padding-bottom: 10px;
+}
+
+.guide-text h3{
+    padding-top: 10px;
+}
+
 /* For medium screen sizes*/
 
 @media screen and (min-width: 768px) {
