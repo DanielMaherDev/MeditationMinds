@@ -217,13 +217,8 @@ body {
 #breath {
     background: url('../images/breath.jpg') no-repeat center center;
     background-size: cover;
-    height: fit-content;
     border-bottom: 1px solid darkslategray;
     height: 300px;
-}
-
-#breath-guide{
-    height: fit-content;
 }
 
 #body-scan {
@@ -378,9 +373,16 @@ body {
 .guide-content-container{
     width:80%;
     margin: 0 auto;
-    font-size: 1.2em;
+    font-size: 1em;
     padding-top: 20px;
     text-align: center;
+}
+
+#breath-guide{
+    height: fit-content;
+    background: url('../images/breath.jpg') no-repeat center center;
+    background-size: cover;
+    border-bottom: 1px solid darkslategray;
 }
 /* For medium screen sizes*/
 
