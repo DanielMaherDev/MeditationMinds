@@ -235,6 +235,12 @@ body {
     border-bottom: 1px solid darkslategray;
 }
 
+#reset-guide {
+    background: url('../images/reset.jpg') no-repeat center center;
+    background-size: cover;
+    border-bottom: 1px solid darkslategray;
+}
+
 .info-inner {
     background-color: rgba(255, 255, 255, 0.8);
     height: inherit;
