@@ -371,7 +371,6 @@ body {
 }
 
 .guide-content-container {
-    width: 80%;
     margin: 0 auto;
     font-size: 1em;
     padding-top: 20px;
@@ -401,6 +400,16 @@ body {
     background: url('../images/bodyscan.jpg') no-repeat center center;
     background-size: cover;
     border-bottom: 1px solid darkslategray;
+}
+
+.guide-gallery-container {width: 100%;
+    padding: 0;
+margin: 0;
+}
+
+.guide-text {
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* For medium screen sizes*/
@@ -583,10 +592,6 @@ body {
     .guide-content-container>div {
         width: 50%;
     }
-
-    .guide-gallery {}
-
-    .guide-text {}
 
     #breath .guide-text,
     #release .guide-text {
