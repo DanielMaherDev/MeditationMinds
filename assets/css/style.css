@@ -139,7 +139,7 @@ body {
 }
 
 
-#cover-text h3 {
+#cover-text h2 {
     font-size: medium;
     font-weight: lighter;
     padding-top: 20px;
@@ -161,7 +161,6 @@ body {
 
 
 .info-section {
-    padding-bottom: 40px;
     margin-bottom: 10px;
 }
 
@@ -220,6 +219,7 @@ body {
     background-size: cover;
     height: fit-content;
     border-bottom: 1px solid darkslategray;
+    height: 300px;
 }
 
 #breath-guide{
@@ -259,6 +259,7 @@ body {
 #about-us h2 {
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #self-guided h2 {
