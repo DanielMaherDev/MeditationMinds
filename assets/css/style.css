@@ -219,8 +219,20 @@ body {
     background-size: cover;
     border-bottom: 1px solid darkslategray;
     height: 300px;
+
+}
+/* self guided animations */
+#breath:hover h3{
+    animation-name: textbreath;
+    animation-duration: 3s;
 }
 
+@keyframes textbreath {
+        0%   {letter-spacing: normal;}
+        50% {letter-spacing: 0.7em;}
+        100%   {letter-spacing: normal;}
+}
+    
 #body-scan {
     background: url('../images/bodyscan.jpg') no-repeat center center;
     background-size: cover;
