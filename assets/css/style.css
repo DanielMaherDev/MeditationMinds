@@ -258,13 +258,8 @@ body {
     padding: 10px;
 }
 
-#about-us h2 {
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 20px;
-}
 
-#self-guided h2 {
+h2 {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 20px;
@@ -631,6 +626,11 @@ body {
         flex-direction: row-reverse;
     }
 
+    
+}
+/* Styling for large screens */
+
+@media screen and (min-width: 1200px) {
     /* self guided animations */
     #breath:hover h3 {
         animation-name: textbreath;
@@ -665,6 +665,7 @@ body {
         animation-duration: 6s;
         display: block;
         z-index: 2;
+        opacity: .5;
 
     }
 
@@ -737,7 +738,7 @@ body {
 
     #reset:hover #mouth {
         animation-name: smile;
-        animation-duration: 3s;
+        animation-duration: 10s;
     }
 
     @keyframes smile {
@@ -745,11 +746,14 @@ body {
             border-radius: 0;
         }
 
-        100% {
+        33% {
             border-radius: 15px;
             margin-left: -2px;
             width:calc(50% + 5px)
         }
 
+       
+
     }
+    
 }
