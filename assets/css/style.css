@@ -6,12 +6,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: darkslategray
+    color: darkslategray;
 }
 
 body {
     font-family: 'Bona Nova', serif;
     font-weight: 300;
+    overflow: hidden;
+
 }
 
 /* logo */
@@ -242,9 +244,13 @@ body {
     border-bottom: 1px solid darkslategray;
 }
 
+
 .info-inner {
     background-color: rgba(255, 255, 255, 0.8);
     height: inherit;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
 }
 
 #self-guided {
@@ -626,11 +632,18 @@ h2 {
         flex-direction: row-reverse;
     }
 
-    
+    #communal .info-section {
+        width: 50%;
+        height: 300px;
+    }
 }
+
+
+
 /* Styling for large screens */
 
 @media screen and (min-width: 1200px) {
+
     /* self guided animations */
     #breath:hover h3 {
         animation-name: textbreath;
@@ -694,66 +707,34 @@ h2 {
         }
     }
 
-    #reset-animation {
-        width: 70px;
-        height: 70px;
-        border: 4px solid darkslategray;
-        border-radius: 50%;
-        margin: 0 auto;
-        position: absolute;
-        margin-top: -25px;
-        left: 50%;
-        margin-left: -35px;
-        display: none;
+   #reset:hover .subsection-title{
+        animation-name: reset-r;
+        animation-duration: 3s;
+        overflow: hidden;
+        white-space: no-wrap;
     }
 
-    .eye-container {
-        width: 25%;
-        margin: 0 auto;
-        height: 25%;
-        float: left;
-        margin-top: 20px;
-
-    }
-
-    .eye {
-        width: 50%;
-        height: 50%;
-        background-color: darkslategray;
-        border-radius: 50%;
-        margin: 0 auto;
-    }
-
-    #mouth {
-        width: 50%;
-        height: 50px;
-        border-bottom: 5px solid darkslategray;
-        margin-left:2px;
-
-    }
-
-    #reset:hover #reset-animation {
-        display: block;
-    }
-
-    #reset:hover #mouth {
-        animation-name: smile;
-        animation-duration: 10s;
-    }
-
-    @keyframes smile {
+    @keyframes reset-r {
         0% {
-            border-radius: 0;
+            margin-left: 0px;
         }
 
-        33% {
-            border-radius: 15px;
-            margin-left: -2px;
-            width:calc(50% + 5px)
+        25% {
+            margin-left: 1000px;
         }
 
-       
+        49%{
+            margin-left: 1000px;
+
+        }
+
+        50%{
+            margin-left: -1000px;
+        }
+
+        100% {
+            margin-left: 0px;
+        }
 
     }
-    
 }
