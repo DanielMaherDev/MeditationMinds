@@ -221,6 +221,8 @@ body {
     background-size: cover;
     border-bottom: 1px solid darkslategray;
     height: 300px;
+    z-index: 2;
+
 
 }
 
@@ -229,6 +231,7 @@ body {
     background-size: cover;
     height: 300px;
     border-bottom: 1px solid darkslategray;
+    z-index: 2;
 }
 
 #reset {
@@ -708,23 +711,23 @@ h2 {
     }
 
    #reset:hover .subsection-title{
-        animation-name: reset-r;
-        animation-duration: 3s;
+        animation-name: reset;
+        animation-duration: 2s;
         overflow: hidden;
         white-space: no-wrap;
     }
 
-    @keyframes reset-r {
+    @keyframes reset {
         0% {
             margin-left: 0px;
         }
 
         25% {
-            margin-left: 1000px;
+            margin-left: 700px;
         }
 
         49%{
-            margin-left: 1000px;
+            margin-left: 700px;
 
         }
 
