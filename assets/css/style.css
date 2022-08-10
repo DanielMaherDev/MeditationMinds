@@ -9,6 +9,8 @@
     color: darkslategray;
 }
 
+h1,h2,h3,h4,h5,h6{font-size: 150%;}
+
 body {
     font-family: 'Bona Nova', serif;
     font-weight: 300;
@@ -442,6 +444,13 @@ h2 {
     background-size: cover;
 }
 
+#communal-desc{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
 /* For medium screen sizes*/
 
 @media screen and (min-width: 768px) {
@@ -643,6 +652,7 @@ h2 {
     #communal .info-section {
         width: 50%;
         height: 300px;
+       
     }
 
 }
