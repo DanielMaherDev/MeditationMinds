@@ -12,8 +12,6 @@
 body {
     font-family: 'Bona Nova', serif;
     font-weight: 300;
-    overflow: hidden;
-
 }
 
 /* logo */
@@ -239,6 +237,8 @@ body {
     background-size: cover;
     height: 350px;
     border-bottom: 1px solid darkslategray;
+    overflow: hidden;
+
 }
 
 #reset-guide {
@@ -435,6 +435,11 @@ h2 {
 
 .guide-text h3 {
     padding-top: 10px;
+}
+
+#communal-one{
+    background: url('../images/salthill.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 /* For medium screen sizes*/
@@ -639,6 +644,7 @@ h2 {
         width: 50%;
         height: 300px;
     }
+
 }
 
 
@@ -726,7 +732,7 @@ h2 {
             margin-left: 700px;
         }
 
-        49%{
+        49.9%{
             margin-left: 700px;
 
         }
@@ -740,4 +746,6 @@ h2 {
         }
 
     }
+
+
 }
