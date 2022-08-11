@@ -164,6 +164,7 @@ body {
 
 .info-section {
     margin-bottom: 10px;
+    min-height: 300px;
 }
 
 .subsection-title hr {
@@ -311,6 +312,7 @@ h2 {
     bottom: 2%;
     width: fit-content;
     opacity: rgba(0, 0, 0, 0.5);
+    z-index: 3;
 }
 
 #back-to-top a:hover {
@@ -442,6 +444,13 @@ h2 {
 #communal-one{
     background: url('../images/salthill.jpg') no-repeat center center;
     background-size: cover;
+    height: 300px;
+}
+
+#communal-two{
+    background: url('../images/forest.jpg') no-repeat center center;
+    background-size: cover;
+    height: 300px;
 }
 
 #communal-desc{
@@ -450,6 +459,15 @@ h2 {
     margin: 0 auto;
     margin-bottom: 20px;
 
+}
+
+#communal .info-inner{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: inherit;
+}
+
+#communal .info-inner *{
+    color: white !important;
 }
 /* For medium screen sizes*/
 
@@ -651,10 +669,10 @@ h2 {
 
     #communal .info-section {
         width: 50%;
-        height: 300px;
-       
-    }
+       float:left;
+            }
 
+    
 }
 
 
