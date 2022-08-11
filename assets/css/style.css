@@ -27,6 +27,9 @@ h6 {
     font-size: 150%;
 }
 
+section {
+    margin: 50px auto !important;
+}
 /* logo */
 
 #logo {
@@ -224,7 +227,7 @@ h6 {
 #reset {
     background: url('../images/reset.jpg') no-repeat center center;
     background-size: cover;
-    height: inherit;
+    height: 300px;
     border-bottom: 1px solid black;
     overflow: hidden;
 }
