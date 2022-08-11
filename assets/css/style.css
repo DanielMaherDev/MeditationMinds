@@ -9,14 +9,19 @@
     color: darkslategray;
 }
 
-h1,h2,h3,h4,h5,h6{font-size: 150%;}
-
 body {
     font-family: 'Bona Nova', serif;
     font-weight: 300;
 }
 
+div{
+margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{font-size: 150%;}
+
 /* logo */
+
 #logo {
     text-decoration: none;
     color: darkslategray;
@@ -123,30 +128,20 @@ body {
     background-size: cover;
 }
 
-
 #cover-text {
-
     text-align: center;
-    margin: 0 auto;
     width: 80%;
 }
-
-
-
-
 #cover-text h1 {
     font-size: x-large;
     font-weight: lighter;
     padding-top: 20px;
 }
-
-
 #cover-text h2 {
     font-size: medium;
     font-weight: lighter;
     padding-top: 20px;
 }
-
 .subsection-title {
     text-align: center;
     width: 100%;
@@ -154,30 +149,27 @@ body {
     padding: 20px 0;
     text-transform: uppercase;
 }
-
 .subsection-text {
     width: 90%;
     margin: 20px 20px 40px 20px;
     text-align: center;
 }
 
+/* Self Guided Metitation Section */
 
 .info-section {
     margin-bottom: 10px;
     min-height: 300px;
 }
-
 .subsection-title hr {
     width: 50%;
     margin: 0 auto;
 }
-
 .subsection-button {
     width: 100%;
     text-align: center;
     margin: 25px 0px;
 }
-
 .subsection-button a {
     background-color: darkslategray;
     margin: 0 auto;
@@ -187,34 +179,12 @@ body {
     color: white;
     padding: 10px 20px;
 }
-
 .subsection-button a:hover {
     background-color: white;
     color: darkslategray;
     border: 2px solid darkslategray;
 }
 
-/* footer */
-
-#social-header {
-    width: 100%;
-    text-align: center;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks>li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 1.5rem;
-    margin: 2.5%;
-    padding: 5px 5px;
-    color: darkslategray;
-}
 
 
 #breath {
@@ -241,8 +211,30 @@ body {
     height: 350px;
     border-bottom: 1px solid darkslategray;
     overflow: hidden;
-
 }
+
+/* footer */
+
+#social-header {
+    width: 100%;
+    text-align: center;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 1.5rem;
+    margin: 2.5%;
+    padding: 5px 5px;
+    color: darkslategray;
+}
+
 
 #reset-guide {
     background: url('../images/reset.jpg') no-repeat center center;
@@ -254,7 +246,6 @@ body {
 .info-inner {
     background-color: rgba(255, 255, 255, 0.8);
     height: inherit;
-    margin: 0 auto;
     width: 100%;
     text-align: center;
 }
@@ -282,7 +273,6 @@ h2 {
     height: 200px;
     border: 1px solid #ccc;
     border-radius: 50%;
-    margin: 0 auto;
 }
 
 #center-about {
@@ -366,7 +356,6 @@ h2 {
 .guide {
     width: 95%;
     background-color: rgba(255, 255, 255, 0.75);
-    margin: 0 auto;
     padding-bottom: 40px;
 }
 
@@ -377,7 +366,6 @@ h2 {
 
 .quote {
     width: 80%;
-    margin: 0 auto;
     padding-top: 5px;
 }
 
@@ -386,7 +374,6 @@ h2 {
 }
 
 .guide-content-container {
-    margin: 0 auto;
     font-size: 1em;
     padding-top: 20px;
 }
@@ -424,12 +411,10 @@ h2 {
 
 .guide-video {
     width: 80%;
-    margin: 0 auto;
 }
 
 .guide-text {
     width: 80%;
-    margin: 0 auto;
     padding-bottom: 50px;
 }
 
@@ -460,9 +445,12 @@ h2 {
 #communal-desc{
     width: 50%;
     text-align: center;
-    margin: 0 auto;
     margin-bottom: 20px;
 
+}
+
+.quote{
+    margin: 0 auto;
 }
 
 #communal .info-inner{
