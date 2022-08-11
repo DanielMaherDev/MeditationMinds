@@ -453,6 +453,10 @@ h2 {
     height: 300px;
 }
 
+#communal h3, h4{
+    font-weight: 300;
+}
+
 #communal-desc{
     width: 50%;
     text-align: center;
