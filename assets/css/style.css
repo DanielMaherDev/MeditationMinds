@@ -6,10 +6,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: rgb(94, 94, 94);
+    line-height: 1.5;
+
 }
 
 body {
-    font-family: 'Bona Nova', serif;
+    font-family: 'Helvetica', serif;
     font-weight: 300;
 }
 
@@ -29,12 +32,26 @@ div {
 
 
 h1,h2{ font-sizxe: 1em;
-font-weight:lighter;}
+font-weight:lighter;
+line-height: 2em;
+letter-spacing: 0.2em;}
+
+h1, h2, h3 {
+    border-bottom: 1px solid rgb(94, 94, 94);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+p {
+    font-size: 1.1em;
+    margin: 40px auto;
+}
 /* logo */
 
 #logo {
     text-decoration: none;
-    color: black;
+    color: rgb(94, 94, 94);
 }
 
 /* navigation */
@@ -70,7 +87,6 @@ font-weight:lighter;}
 
 .nav-item a {
     text-decoration: none;
-    color: black;
 }
 
 .nav-item .active {
@@ -152,7 +168,6 @@ font-weight:lighter;}
 
 .subsection-title {
     text-align: center;
-    width: 100%;
 }
 
 .subsection-text {
@@ -241,7 +256,6 @@ font-weight:lighter;}
 .social-networks i {
     margin: 2.5%;
     padding: 5px 5px;
-    color: black;
 }
 
 
@@ -263,7 +277,6 @@ font-weight:lighter;}
 #about-us {
     width: 80%;
     margin: 20px auto;
-    text-align: justify;
 }
 
 
@@ -312,11 +325,10 @@ h2 {
 
 #back-to-top a:hover {
     background: rgba(255, 255, 255, 1);
-    color: black;
+
 }
 
 #back-to-top a:hover i {
-    color: black;
 }
 
 #back-to-top a {
@@ -492,7 +504,6 @@ h4 {
 
     .nav-item a {
         text-decoration: none;
-        color: black;
     }
 
     .nav-item a:hover {
@@ -516,7 +527,6 @@ h4 {
         font-size: medium;
         margin: 10px;
         text-decoration: none;
-        color: black;
     }
 
     .nav-menu li a {
@@ -564,11 +574,6 @@ h4 {
 
     #about-us {
         background-color: white;
-    }
-
-    #about-us p {
-        font-size: 1.2rem;
-        margin: 20px auto;
     }
 
     /* self guided section */
