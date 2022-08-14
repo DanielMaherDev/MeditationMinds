@@ -18,18 +18,21 @@ div {
     margin: 0 auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-size: 150%;
+.info-inner {
+    padding-top: 25px;
 }
 
 section {
-    margin: 50px auto !important;
+    margin-bottom: 50px auto;
 }
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: 1.5rem;
+}
+
 /* logo */
 
 #logo {
@@ -99,13 +102,9 @@ section {
 }
 
 .nav-menu li a {
-    font-size: x-large;
     margin: 10px;
 }
 
-.nav-section {
-    margin-top: 50px;
-}
 
 .nav-menu.active {
     left: 0;
@@ -144,24 +143,10 @@ section {
     width: 80%;
 }
 
-#cover-text h1 {
-    font-size: x-large;
-    font-weight: lighter;
-    padding-top: 20px;
-}
-
-#cover-text h2 {
-    font-size: medium;
-    font-weight: lighter;
-    padding-top: 20px;
-}
 
 .subsection-title {
     text-align: center;
     width: 100%;
-    font-size: 1.5rem;
-    padding: 20px 0;
-    text-transform: uppercase;
 }
 
 .subsection-text {
@@ -248,7 +233,6 @@ section {
 }
 
 .social-networks i {
-    font-size: 1.5rem;
     margin: 2.5%;
     padding: 5px 5px;
     color: black;
@@ -269,15 +253,11 @@ section {
     text-align: center;
 }
 
-#self-guided {
-    margin-top: 50px;
-}
 
 #about-us {
     width: 80%;
     margin: 20px auto;
     text-align: justify;
-    padding: 10px;
 }
 
 
@@ -358,34 +338,28 @@ h2 {
 }
 
 .self-guided h1 {
-    font-size: 1.2em;
     margin: 0 auto;
     padding: 10px;
     width: fit-content;
     border-bottom: 2px solid black;
-    font-weight: 300;
 }
 
 .self-guided .subsection {
     min-height: 600px;
     margin: 10px 0;
-    padding-top: 20px;
 }
 
 .guide {
     width: 95%;
     background-color: rgba(255, 255, 255, 0.5);
-    padding-bottom: 40px;
 }
 
 .guide h2 {
     text-align: center;
-    padding-top: 15px;
 }
 
 .quote {
     width: 80%;
-    padding-top: 5px;
 }
 
 .quote {
@@ -394,7 +368,6 @@ h2 {
 
 .guide-content-container {
     font-size: 1em;
-    padding-top: 20px;
 }
 
 .guide-content-container h3 {
@@ -434,15 +407,6 @@ h2 {
 
 .guide-text {
     width: 80%;
-    padding-bottom: 50px;
-}
-
-.guide-text p {
-    padding-bottom: 10px;
-}
-
-.guide-text h3 {
-    padding-top: 10px;
 }
 
 #communal-one {
@@ -575,23 +539,28 @@ h4 {
     #cover-text {
         position: absolute;
         right: 5%;
-        top: 15%;
+        top: 20%;
         width: fit-content;
-        padding: 5%;
+        padding: 4%;
         background: rgba(255, 255, 255, 0.4);
     }
 
     /*about us */
+
+    #about-us-container {
+        width: 100%;
+    }
+
+    #about-us {
+        background-color: white;
+    }
+
     #about-us p {
         font-size: 1.2rem;
         margin: 20px auto;
     }
 
     /* self guided section */
-
-    #self-guided {
-        height: 500px;
-    }
 
     .info-section {
         width: 33.33%;
@@ -631,7 +600,6 @@ h4 {
 
     #about-us {
         width: 50%;
-        padding-top: 30px;
     }
 
 
