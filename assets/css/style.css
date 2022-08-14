@@ -13,7 +13,7 @@ body {
     font-weight: 300;
     color: rgb(94, 94, 94);
     line-height: 1.5;
-    border-color:  rgb(94, 94, 94);
+    border-color: rgb(94, 94, 94);
 }
 
 #main>section {
@@ -251,8 +251,12 @@ p {
 .social-networks i {
     margin: 2.5%;
     padding: 5px 5px;
+    color: inherit;
 }
 
+.social-networks a {
+    color: inherit;
+}
 
 #reset-guide {
     background: url('../images/reset.jpg') no-repeat center center;
@@ -262,7 +266,7 @@ p {
 
 
 .info-inner {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.75);
     height: 100%;
     width: 100%;
     text-align: center;
@@ -336,8 +340,9 @@ p {
 
 /*self-guided page */
 
-.self-guided {
+#self-guided {
     margin-top: 20px;
+    height: 600px;
 }
 
 #pageheader {
@@ -413,14 +418,22 @@ p {
 }
 
 #communal-desc {
-    width: 50%;
+    width: 90%;
     text-align: center;
     margin-bottom: 20px;
 
 }
 
+section>p {
+    text-align: center;
+}
+
 .quote {
     margin: 0 auto;
+}
+
+#communal>div {
+    color: rgba(255, 255, 255, 0.75)
 }
 
 #communal .info-inner {
@@ -428,7 +441,7 @@ p {
 }
 
 #communal .info-inner * {
-    color: white !important;
+    color: rgba(255, 255, 255, 0.75) !important;
 }
 
 /* For medium screen sizes*/
@@ -637,8 +650,7 @@ p {
     }
 
     @keyframes textbreath {
-        0% {
-        }
+        0% {}
 
         50% {
             letter-spacing: 0.7em;
@@ -701,7 +713,7 @@ p {
 
     @keyframes reset {
         0% {
-            margin-left: 0px;
+            margin-left: calc(50% - 49px);
         }
 
         25% {
@@ -718,7 +730,7 @@ p {
         }
 
         100% {
-            margin-left: 0px;
+            margin-left: calc(50% - 70px);
         }
 
     }
