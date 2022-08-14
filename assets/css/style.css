@@ -13,10 +13,7 @@ body {
     font-weight: 300;
     color: rgb(94, 94, 94);
     line-height: 1.5;
-}
-
-.info-inner {
-    padding-top: 25px;
+    border-color:  rgb(94, 94, 94);
 }
 
 #main>section {
@@ -32,7 +29,7 @@ h3 {
     padding: 0 20px;
     font-weight: lighter;
     line-height: 2em;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     text-align: center;
 }
 
@@ -154,6 +151,7 @@ p {
     text-align: center;
     width: 80%;
     padding-top: 25px;
+    margin: 0 auto;
 }
 
 #cover-text * {
@@ -183,6 +181,7 @@ p {
 .info-section {
     margin-bottom: 10px;
     min-height: 300px;
+    height: 450px;
 }
 
 .subsection-title hr {
@@ -217,8 +216,6 @@ p {
 #breath {
     background: url('../images/breath.jpg') no-repeat center center;
     background-size: cover;
-    border-bottom: 1px solid rgb(94, 94, 94);
-    height: 300px;
     z-index: 2;
 
 
@@ -227,16 +224,12 @@ p {
 #body-scan {
     background: url('../images/bodyscan.jpg') no-repeat center center;
     background-size: cover;
-    height: 300px;
-    border-bottom: 1px solid rgb(94, 94, 94);
     z-index: 2;
 }
 
 #reset {
     background: url('../images/reset.jpg') no-repeat center center;
     background-size: cover;
-    height: 300px;
-    border-bottom: 1px solid rgb(94, 94, 94);
     overflow: hidden;
 }
 
@@ -270,9 +263,10 @@ p {
 
 .info-inner {
     background-color: rgba(255, 255, 255, 0.6);
-    height: 300px;
+    height: 100%;
     width: 100%;
     text-align: center;
+    padding-top: 25px;
 }
 
 
@@ -553,6 +547,7 @@ p {
         float: left;
         height: 400px;
         position: relative;
+        border-bottom: 1px solid rgb(94, 94, 94);
     }
 
     .subsection-button {
@@ -643,7 +638,6 @@ p {
 
     @keyframes textbreath {
         0% {
-            letter-spacing: normal;
         }
 
         50% {
@@ -651,7 +645,7 @@ p {
         }
 
         100% {
-            letter-spacing: normal;
+            letter-spacing: 0.1em;
         }
     }
 
@@ -702,7 +696,7 @@ p {
         animation-name: reset;
         animation-duration: 2s;
         overflow: hidden;
-        white-space: no-wrap;
+        white-space: nowrap;
     }
 
     @keyframes reset {
