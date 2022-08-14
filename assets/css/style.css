@@ -28,7 +28,8 @@ div {
 
 
 
-h2{ font-sizxe: 1em}
+h1,h2{ font-sizxe: 1em;
+font-weight:lighter;}
 /* logo */
 
 #logo {
@@ -126,6 +127,10 @@ h2{ font-sizxe: 1em}
 }
 
 /* hero section */
+
+#hero{
+    margin-top: 0 !important;
+}
 
 #hero-image {
     height: 500px;
