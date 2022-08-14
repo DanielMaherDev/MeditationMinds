@@ -6,21 +6,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: rgb(94, 94, 94);
-    line-height: 1.5;
-
 }
 
 body {
     font-family: 'Helvetica', serif;
     font-weight: 300;
+    color: rgb(94, 94, 94);
+    line-height: 1.5;
 }
-
-div {
-    margin: 0 auto;
-}
-
-
 
 .info-inner {
     padding-top: 25px;
@@ -88,10 +81,11 @@ p {
 
 .nav-item a {
     text-decoration: none;
+    color: rgb(94, 94, 94)
 }
 
 .nav-item .active {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(94, 94, 94);
 }
 
 .nav-item a:hover {
@@ -112,7 +106,7 @@ p {
     margin: 5px auto;
     -webkit-transition: 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: black;
+    background-color: rgb(94, 94, 94);
 }
 
 .nav-menu li a {
@@ -203,7 +197,7 @@ p {
 }
 
 .subsection-button a {
-    background-color: black;
+    background-color: rgb(94, 94, 94);
     margin: 0 auto;
     border-radius: 2%;
     text-transform: uppercase;
@@ -214,8 +208,8 @@ p {
 
 .subsection-button a:hover {
     background-color: white;
-    color: black;
-    border: 2px solid black;
+    color: rgb(94, 94, 94);
+    border: 2px solid rgb(94, 94, 94);
 }
 
 
@@ -223,7 +217,7 @@ p {
 #breath {
     background: url('../images/breath.jpg') no-repeat center center;
     background-size: cover;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(94, 94, 94);
     height: 300px;
     z-index: 2;
 
@@ -234,7 +228,7 @@ p {
     background: url('../images/bodyscan.jpg') no-repeat center center;
     background-size: cover;
     height: 300px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(94, 94, 94);
     z-index: 2;
 }
 
@@ -242,7 +236,7 @@ p {
     background: url('../images/reset.jpg') no-repeat center center;
     background-size: cover;
     height: 300px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(94, 94, 94);
     overflow: hidden;
 }
 
@@ -270,7 +264,7 @@ p {
 #reset-guide {
     background: url('../images/reset.jpg') no-repeat center center;
     background-size: cover;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid blacrgb(94, 94, 94)k;
 }
 
 
@@ -292,6 +286,8 @@ p {
     height: 200px;
     border: 1px solid #ccc;
     border-radius: 50%;
+    margin: 0 auto;
+
 }
 
 #center-about {
@@ -299,7 +295,7 @@ p {
 }
 
 #club-photo {
-    border: 1px solid black;
+    border: 1px solid rgb(94, 94, 94);
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -335,8 +331,8 @@ p {
     padding: 5px 10px;
     text-decoration: none;
     color: white;
-    background-color: black;
-    border: 1.5px solid black;
+    background-color: rgb(94, 94, 94);
+    border: 1.5px solid rgb(94, 94, 94);
     border-radius: 5%;
 }
 
@@ -380,11 +376,11 @@ p {
     height: fit-content;
     background: url('../images/breath.jpg') no-repeat center center;
     background-size: cover;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(94, 94, 94);
 }
 
 .exercise {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(94, 94 94, 0.5);
     color: white;
 }
 
@@ -396,7 +392,7 @@ p {
 #body-scan-guide {
     background: url('../images/bodyscan.jpg') no-repeat center center;
     background-size: cover;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(94, 94, 94);
 }
 
 .guide-video-container {
@@ -483,7 +479,7 @@ p {
 
     .nav-item a:hover {
         text-decoration: none;
-        text-shadow: 0 0 1px black;
+        text-shadow: 0 0 1px rgb(94, 94, 94);
         color: rgba(53, 53, 53, 0.9)
     }
 
@@ -597,7 +593,7 @@ p {
     }
 
     #backtotop-text:hover {
-        color: black
+        color: rgb(94, 94, 94)
     }
 
     /* self-guided page */
@@ -619,11 +615,11 @@ p {
 
     #breath-guide .guide-text,
     #reset-guide .guide-text {
-        border-right: 1px solid black;
+        border-right: 1px solid rgb(94, 94, 94);
     }
 
     #body-scan-guide .guide-text {
-        border-left: 1px solid black;
+        border-left: 1px solid rgb(94, 94, 94);
     }
 
     #body-scan-guide .guide-content-container {
