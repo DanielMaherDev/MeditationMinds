@@ -342,7 +342,6 @@ p {
 
 #self-guided {
     margin-top: 20px;
-    height: 600px;
 }
 
 #pageheader {
@@ -604,6 +603,10 @@ section>p {
         color: rgb(94, 94, 94)
     }
 
+    #self-guided, #communal{ 
+        height: 600px;
+}
+
     /* self-guided page */
 
     .guide-content-container {
@@ -638,6 +641,8 @@ section>p {
         width: 50%;
     }
 }
+
+
 
 /* Styling for large screens */
 
