@@ -143,7 +143,7 @@ p {
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat center center;
     background-size: cover;
 }
 
@@ -214,7 +214,7 @@ p {
 
 
 #breath {
-    background: url('../images/breath.jpg') no-repeat center center;
+    background: url('../images/breath.webp') no-repeat center center;
     background-size: cover;
     z-index: 2;
 
@@ -222,13 +222,13 @@ p {
 }
 
 #body-scan {
-    background: url('../images/bodyscan.jpg') no-repeat center center;
+    background: url('../images/bodyscan.webp') no-repeat center center;
     background-size: cover;
     z-index: 2;
 }
 
 #reset {
-    background: url('../images/reset.jpg') no-repeat center center;
+    background: url('../images/reset.webp') no-repeat center center;
     background-size: cover;
     overflow: hidden;
 }
@@ -259,7 +259,7 @@ p {
 }
 
 #reset-guide {
-    background: url('../images/reset.jpg') no-repeat center center;
+    background: url('../images/reset.webp') no-repeat center center;
     background-size: cover;
     border-bottom: 1px solid blacrgb(94, 94, 94)k;
 }
@@ -297,7 +297,7 @@ p {
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    background: url('../images/our-club.jpg') no-repeat center center;
+    background: url('../images/our-club.webp') no-repeat center center;
     background-size: cover;
 }
 
@@ -372,7 +372,7 @@ p {
 
 #breath-guide {
     height: fit-content;
-    background: url('../images/breath.jpg') no-repeat center center;
+    background: url('../images/breath.webp') no-repeat center center;
     background-size: cover;
     border-bottom: 1px solid rgb(94, 94, 94);
 }
@@ -388,7 +388,7 @@ p {
 }
 
 #body-scan-guide {
-    background: url('../images/bodyscan.jpg') no-repeat center center;
+    background: url('../images/bodyscan.webp') no-repeat center center;
     background-size: cover;
     border-bottom: 1px solid rgb(94, 94, 94);
 }
@@ -407,12 +407,12 @@ p {
 }
 
 #communal-one {
-    background: url('../images/salthill.jpg') no-repeat center center;
+    background: url('../images/salthill.webp') no-repeat center center;
     background-size: cover;
 }
 
 #communal-two {
-    background: url('../images/forest.jpg') no-repeat center center;
+    background: url('../images/forest.webp') no-repeat center center;
     background-size: cover;
 }
 
