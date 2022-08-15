@@ -110,11 +110,15 @@ p {
 
 .nav-menu li a {
     margin: 10px;
+
 }
 
 
 .nav-menu.active {
     left: 0;
+    margin-top: -70px;
+    padding-top: 70px;
+    height: 110%;
 }
 
 /* burger menu*/
