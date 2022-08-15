@@ -267,7 +267,8 @@ ol li{
     padding-top: 25px;
 }
 
-
+#about-us-container{
+}
 #about-us {
     width: 80%;
     margin: 20px auto;
@@ -279,7 +280,6 @@ ol li{
     border: 1px solid #ccc;
     border-radius: 50%;
     margin: 0 auto;
-
 }
 
 #center-about {
@@ -304,24 +304,32 @@ ol li{
     left: 1%;
     bottom: 2%;
     width: fit-content;
-    opacity: rgba(0, 0, 0, 0.6);
+    background-color: rgba(30,30,30,.9);
     z-index: 3;
 }
 
 #back-to-top a:hover {
     background: rgba(255, 255, 255, 1);
-
+    color:rgb(30, 30, 30);
 }
 
-#back-to-top a:hover i {}
+#back-to-top:active{
+    background-color: rgba(30,30,30,.9);
+    color: white;
+}
+
+
+#back-to-top a:hover i, #back-to-top a:hover {
+    color: rgb(30, 30, 30);
+}
 
 #back-to-top a {
-    padding: 5px 10px;
     text-decoration: none;
-    color: white;
     background-color: rgb(30, 30, 30);
     border: 1.5px solid rgb(30, 30, 30);
     border-radius: 5%;
+    padding: 3px 5px;
+
 }
 
 #back-to-top a i {
