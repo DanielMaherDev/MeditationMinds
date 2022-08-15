@@ -39,6 +39,10 @@ p {
     margin: 40px auto;
 }
 
+ol li{
+    font-size: 1.2em;
+}
+
 /* logo */
 
 #logo {
@@ -340,11 +344,12 @@ p {
 .exercise {
     width: 80%;
     grid-area: 2 / 1 / 5 / 3;
-    padding: 50px 0;
+    padding-bottom: 50px;
     text-align: left;
     margin: 20px auto;
-
+    height: fit-content
 }
+
 
 
 .exercise li {
@@ -384,7 +389,17 @@ p {
     width: 80%;
     margin: 0 auto;
     grid-area: 1 / 2 / 2 / 3;
+    height: fit-content;
+}
 
+.guide-video-container{
+    height: fit-content;
+}
+
+#body-scan-guide .guide-text {
+    width: 80%;
+    margin: 0 auto;
+    grid-area: 1 / 2 / 2 / 3;
 }
 
 iframe {
@@ -395,6 +410,11 @@ iframe {
 
 .guide-text {
     width: 80%;
+    margin: 0 auto;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+#body-scan-guide .guide-video {
     margin: 0 auto;
     grid-area: 1 / 1 / 2 / 2;
 }
@@ -434,10 +454,27 @@ iframe {
     color: rgba(255, 255, 255, 0.75) !important;
 }
 
+#self-guided-nav {
+    background-color: rgb(94, 94, 94);
+    color: white;
+    border-radius: 10px;
+    width:fit-content;
+    margin: 0 auto;
+    padding: 5px 5px;
+}
+
 #self-guided-nav li{
     display: inline;
     padding: 5px 40px;
-    border-right: 2px solid rgb(94, 94, 94)
+    border-right: 2px solid white;
+}
+
+#self-guided-nav li a{
+    text-decoration: none;
+    color:white;
+}
+#self-guided-nav li:nth-child(3){
+    border-right: none;
 }
 /* For medium screen sizes*/
 
@@ -532,6 +569,10 @@ iframe {
         font-size: 1.5rem;
     }
 
+    #communal-desc {
+        width: 50%;
+    }
+
     .info-section {
         width: 33.33%;
         float: left;
@@ -587,12 +628,8 @@ iframe {
         border-left: 1px solid rgb(94, 94, 94);
     }
 
-    #body-scan-guide .guide-text {
-        border-left: 1px solid rgb(94, 94, 94);
-    }
-
-    #body-scan-guide .guide-content-container {
-        flex-direction: row-reverse;
+    #body-scan-guide .guide-video {
+        border-right: 1px solid rgb(94, 94, 94);
     }
 
     #communal .info-section {
@@ -603,6 +640,11 @@ iframe {
         width: 100%;
         margin: 0 auto;
         height: 100%;
+    }
+
+    iframe{
+        width:50%;
+        height:200px;
     }
 
     .exercise {
