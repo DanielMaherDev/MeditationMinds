@@ -93,6 +93,8 @@ p {
 
 .nav-item {
     list-style-type: none;
+    font-size: 1.5em;
+    padding: 1em 0;
 
 }
 
@@ -605,6 +607,10 @@ p {
 
     #self-guided, #communal{ 
         height: 600px;
+}
+
+section > div > p{
+    width: 50%;
 }
 
     /* self-guided page */
