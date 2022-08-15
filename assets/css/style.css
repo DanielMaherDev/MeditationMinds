@@ -102,6 +102,13 @@ ol li{
 
 }
 
+.nav-menu.active {
+    left: 0;
+    margin-top: -70px;
+    padding-top: 70px;
+    height: 110%;
+}
+
 .bar {
     display: block;
     width: 25px;
@@ -122,6 +129,7 @@ ol li{
 .hamburger {
     display: block;
     margin: 0;
+    z-index: 2;
 }
 
 /* hero section */
