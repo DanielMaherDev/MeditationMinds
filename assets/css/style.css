@@ -451,7 +451,7 @@ iframe {
 }
 
 #communal>div {
-    color: rgba(255, 255, 255, 0.75)
+    color: rgba(255, 255, 255, 0.85)
 }
 
 #communal .info-inner {
@@ -459,7 +459,7 @@ iframe {
 }
 
 #communal .info-inner * {
-    color: rgba(255, 255, 255, 0.75) !important;
+    color: rgba(255, 255, 255, 0.85) !important;
 }
 
 #self-guided-nav {
