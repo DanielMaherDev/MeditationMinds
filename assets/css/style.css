@@ -309,18 +309,25 @@ ol li{
 }
 
 #back-to-top a:hover {
-    background: rgba(255, 255, 255, 1);
     color:rgb(30, 30, 30);
-}
-
-#back-to-top:active{
-    background-color: rgba(30,30,30,.9);
-    color: white;
 }
 
 
 #back-to-top a:hover i, #back-to-top a:hover {
-    color: rgb(30, 30, 30);
+    animation-name: topclicked;
+    animation-duration: 1s;
+}
+
+@keyframes topclicked{
+    0%{
+        color: rgb(30, 30, 30);
+
+    }
+
+    100%{
+        background-color: rgb(30, 30, 30);
+        color: white;
+    }
 }
 
 #back-to-top a {
