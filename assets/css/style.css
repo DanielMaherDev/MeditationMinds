@@ -318,6 +318,7 @@ font-size: 1.1em;
 .about-image img{
     border-radius: 50%;
     width: 90%;
+    max-width: 180px;
 }
 #about-us p{
     width: 80%;
