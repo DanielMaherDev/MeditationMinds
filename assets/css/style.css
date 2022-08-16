@@ -230,6 +230,10 @@ ol li {
 
 /* footer */
 
+footer{
+    margin-top: 50px;
+}
+
 #social-header {
     width: 100%;
     font-size: 1.2em;
@@ -509,6 +513,45 @@ iframe {
     border-right: none;
 }
 
+
+/* form section */
+
+/* styles initially taken from https://www.w3schools.com/HOWTO/howto_css_stacked_form.asp */
+
+
+#form-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 10px;
+    border: 1px solid rgb(30, 30, 30);
+}
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  /* Add a background color to the submit button on mouse-over */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
 /* For medium screen sizes*/
 
 @media screen and (min-width: 768px) {
