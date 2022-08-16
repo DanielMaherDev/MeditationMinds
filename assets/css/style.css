@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     overflow-x: hidden;
 }
 
@@ -37,6 +37,9 @@ h3 {
     letter-spacing: 0.1em;
 }
 
+h1{
+    font-size:1.5em;
+}
 p {
     font-size: 1.2em;
     line-height: 1.8em;
@@ -229,7 +232,7 @@ ol li {
 #reset {
     background: url('../images/reset.webp') no-repeat center center;
     background-size: cover;
-    height:500px
+    height: 500px
 }
 
 /* footer */
@@ -294,84 +297,87 @@ footer {
     margin: 10px
 }
 
-.left hr{
-    width:100%;
+.left hr {
+    width: 100%;
     height: 3px;
     background-color: #565656;
     overflow-x: hidden;
 
 }
 
-.right hr{
-    width:100%;
+.right hr {
+    width: 100%;
     margin-right: -50%;
     height: 3px;
     background-color: #565656;
 }
 
-hr{
+hr {
     overflow-x: hidden;
 }
+
 .about-us-grid>.about-title {
     grid-area: 1 / 1 / 2 / 2;
-    width:100%;
+    width: 100%;
     white-space: nowrap;
     margin: auto 0;
     padding: 0 10px;
 
 }
 
-#about-us h2{
+#about-us h2 {
     font-size: 1.5em !important;
     margin: 0 auto;
     border-bottom: none;
     padding-bottom: 30px 0;
 }
-.about-us-grid>div h3{
-padding: 0 5px;
-width: 100%;
-font-size:2.5em !important;
-padding-right: 20px;
-font-size: 1.1em;
-border-bottom: none;
+
+.about-us-grid>div h3 {
+    padding: 0 5px;
+    width: 100%;
+    font-size: 2.5em !important;
+    padding-right: 20px;
+    font-size: 1.1em;
+    border-bottom: none;
 }
 
 
-.about-us-grid > .right{
+.about-us-grid>.right {
     grid-area: 1 / 2 / 2 / 3;
     border-radius: 50%;
-    width:100%;
+    width: 100%;
 }
 
-.about-image.right{
+.about-image.right {
     max-width: 200px;
 }
 
-.left img{
-    float:right;
+.left img {
+    float: right;
     overflow-x: hidden;
 }
 
-.about-image{
+.about-image {
     width: 90%;
 }
 
-.about-image img{
+.about-image img {
     border-radius: 50%;
     width: 90%;
     max-width: 180px;
     min-width: 100px;
 }
-#about-us p{
+
+#about-us p {
     width: 80%;
     font-size: 1.3rem;
 }
 
-.text-align-left{
+.text-align-left {
     text-align: left;
 }
 
-.text-align-right{
+.text-align-right {
     text-align: right;
 }
 
@@ -761,7 +767,7 @@ input[type=submit]:hover {
     }
 
     #reset {
-        height:400px !important;
+        height: 400px !important;
     }
 
     /* self-guided page */
