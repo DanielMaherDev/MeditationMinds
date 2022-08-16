@@ -551,15 +551,16 @@ iframe {
 #contact-us-details{
     padding: 20px 20px;
     width:80%;
-    border: 5px solid #252525;
-    background-color: white;
+    border: 2px solid #252525;
+    background-color: rgba(255, 255, 255, 0.4);
     margin: 0 auto;
     font-size: 1.5em;
 
 }
 
 .form-main{
-    background-color: #efefef;
+    background: url(../images/form-background.jpg) no-repeat center center;
+    background-size: cover;
     padding: 50px 0;
 }
 /* styles initially taken from https://www.w3schools.com/HOWTO/howto_css_stacked_form.asp */
@@ -572,7 +573,7 @@ iframe {
     padding: 10px;
     border: 1px solid #252525;
     border-radius: 20px;
-    background-color: #efefef
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
 input[type=text],
@@ -585,6 +586,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    background-color: rgba(255,255,255,0.5);
 }
 
 input[type=submit] {
@@ -756,6 +758,10 @@ input[type=submit]:hover {
     .exercise {
         width: 50%;
         margin: 0 auto;
+    }
+
+    #form-container, #contact-us-details {
+        width:50%;
     }
 }
 
