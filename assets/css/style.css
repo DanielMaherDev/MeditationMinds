@@ -191,7 +191,7 @@ ol li {
 }
 
 .subsection-button a {
-    background-color: #565656;
+    background-color: #252525;
     margin: 0 auto;
     border-radius: 2%;
     text-transform: uppercase;
@@ -252,7 +252,7 @@ footer{
 .social-networks i {
     margin: 2.5%;
     padding: 5px 5px;
-    color: inherit;
+    color: #FF3b3f;
 }
 
 .social-networks a {
@@ -280,11 +280,12 @@ footer{
     margin: 20px auto;
 }
 
-#about-us > div{
-    background-color:  rgba(239, 239, 239, 0.6);
+#about-us > div:not(#center-about){
+    background-color:  #252525;
+    color: white;
     padding:20px 5px;
     border-radius: 20px;
-    margin: 20px 0
+    margin: 50px 0;
 }
 
 #club-photo-container {
