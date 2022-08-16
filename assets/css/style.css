@@ -5,7 +5,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;    
 }
 
 body {
@@ -276,28 +276,46 @@ footer{
 #about-us-container {}
 
 #about-us {
-    width: 80%;
     margin: 20px auto;
 }
 
 #about-us > div:not(#center-about){
-    background-color:  #252525;
     color: white;
+    font-size: 1.5em;
     padding:20px 5px;
-    border-radius: 20px;
-    margin: 50px 0;
 }
 
+#about-us > div > *:nth-child(odd){
+    color: #252525;
+    text-align: left;
+    margin: 0;
+    width: 75%;
+    float:left;
+    
+}
+
+#about-us > div > *:nth-child(even){
+    color: #252525;
+    text-align: right;
+    margin-right: 5%;
+    float:right;
+    width: 75%;
+}
+
+
 #club-photo-container {
-    width: 200px;
+    width: 200px !important;
     height: 200px;
     border: 1px solid #ccc;
     border-radius: 50%;
     margin: 0 auto;
+    margin-left:200px;
 }
 
 #center-about {
     width: 100%;
+    height:900px;
+    margin-left:200px;
 }
 
 #club-photo {
@@ -648,6 +666,7 @@ input[type=text], input[type=email], textarea {
 
     #about-us {
         background-color: white;
+        color: #FF3b3f;
     }
 
     /* self guided section */
