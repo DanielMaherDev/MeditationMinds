@@ -257,6 +257,10 @@ hr {
     font-size: 1.2rem;
 }
 
+#self-guided h3{
+    color: #FF3b3f;
+}
+
 .info-section {
     margin-bottom: 10px;
     height: 450px;
@@ -543,13 +547,31 @@ iframe {
 }
 
 /* form section */
+
+#contact-us-details{
+    padding: 20px 20px;
+    width:80%;
+    border: 5px solid #252525;
+    background-color: white;
+    margin: 0 auto;
+    font-size: 1.5em;
+
+}
+
+.form-main{
+    background-color: #efefef;
+    padding: 50px 0;
+}
 /* styles initially taken from https://www.w3schools.com/HOWTO/howto_css_stacked_form.asp */
+
+
 #form-container {
     width: 80%;
     margin: 0 auto;
-    margin-top: 40px;
+    margin: 40px auto;
     padding: 10px;
     border: 1px solid #252525;
+    border-radius: 20px;
     background-color: #efefef
 }
 
@@ -775,11 +797,12 @@ input[type=submit]:hover {
         animation-duration: 6s;
         display: block;
         z-index: 2;
-        opacity: .5;
+        opacity: 0;
     }
 
     @keyframes scanner {
         0% {
+            opacity:.5;
             top: 0;
         }
 
@@ -788,6 +811,7 @@ input[type=submit]:hover {
         }
 
         50% {
+            opacity:.5;
             top: 100%;
             background-image: linear-gradient(to right, #76ba1b, #1E5631);
         }
@@ -797,6 +821,7 @@ input[type=submit]:hover {
         }
 
         100% {
+            opacity:.5;
             top: 0;
             background-image: linear-gradient(to right, #1E5631, #76ba1b);
         }
