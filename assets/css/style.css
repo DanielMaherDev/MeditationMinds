@@ -5,7 +5,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
 
 body {
@@ -230,7 +230,7 @@ ol li {
 
 /* footer */
 
-footer{
+footer {
     margin-top: 50px;
 }
 
@@ -273,10 +273,64 @@ footer{
     padding-top: 25px;
 }
 
+#about-us {
+    margin: 20px auto;
+
+}
+
+.about-us-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.about-us-grid>div {
+    grid-area: 1 / 1 / 2 / 2;
+    width:100%;
+    white-space: nowrap;
+    margin: auto 0;
+    padding: 0 10px;
+
+}
+
+.about-us-grid>div h2{
+padding: 0 5px;
+width: 100%;
+padding-right: 20px;
+font-size: 1.1em;
+
+}
+
+
+.about-us-grid > img{
+    grid-area: 1 / 2 / 2 / 3;
+    border-radius: 50%;
+    width:100%;
+    max-width: 200px;
+}
+
+#about-us p{
+    text-align: right;
+    width: 80%;
+}
+
+/*
 #about-us-container {}
 
 #about-us {
     margin: 20px auto;
+}
+
+#about-us h2{
+    width:50%;
+    font-size: 1em;
+}
+
+#about-us img{
+    width:50%;
+    border-radius: 50%;
 }
 
 #about-us > div:not(#center-about){
@@ -289,9 +343,12 @@ footer{
     color: #252525;
     text-align: left;
     margin: 0;
-    width: 75%;
+    width: 100%;
     float:left;
-    
+}
+
+#about-us > div > *:nth-child(odd) *{
+    float:left;
 }
 
 #about-us > div > *:nth-child(even){
@@ -325,7 +382,7 @@ footer{
     height: 200px;
     background: url('../images/our-club.webp') no-repeat center center;
     background-size: cover;
-}
+} */
 
 #backtotop-text {
     display: none;
@@ -455,7 +512,7 @@ footer{
     grid-area: 1 / 2 / 2 / 3;
 }
 
-.guide-text img{
+.guide-text img {
     border-radius: 20px;
 }
 
@@ -543,7 +600,7 @@ iframe {
 /* styles initially taken from https://www.w3schools.com/HOWTO/howto_css_stacked_form.asp */
 
 
-#form-container{
+#form-container {
     width: 80%;
     margin: 0 auto;
     margin-top: 40px;
@@ -551,7 +608,10 @@ iframe {
     border: 1px solid #565656;
     background-color: #efefef
 }
-input[type=text], input[type=email], textarea {
+
+input[type=text],
+input[type=email],
+textarea {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -559,9 +619,9 @@ input[type=text], input[type=email], textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
+}
 
-  input[type=submit] {
+input[type=submit] {
     width: 100%;
     background-color: #FF3b3f;
     color: #efefef;
@@ -571,13 +631,14 @@ input[type=text], input[type=email], textarea {
     border-radius: 4px;
     cursor: pointer;
     text-align: center;
-  }
-  
-  /* Add a background color to the submit button on mouse-over */
-  input[type=submit]:hover {
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
     background-color: #caebf2;
     color: #565656
-  }
+}
+
 /* For medium screen sizes*/
 
 @media screen and (min-width: 768px) {
@@ -662,11 +723,6 @@ input[type=text], input[type=email], textarea {
 
     #about-us-container {
         width: 100%;
-    }
-
-    #about-us {
-        background-color: white;
-        color: #FF3b3f;
     }
 
     /* self guided section */
