@@ -284,6 +284,7 @@ footer {
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    margin: 10px
 }
 
 .about-us-grid>.about-title {
@@ -311,12 +312,24 @@ font-size: 1.1em;
     max-width: 200px;
 }
 
+.about-image{
+    width: 90%;
+}
+
 .about-image img{
     border-radius: 50%;
+    width: 90%;
 }
 #about-us p{
-    text-align: right;
     width: 80%;
+}
+
+.text-align-left{
+    text-align: left;
+}
+
+.text-align-right{
+    text-align: right;
 }
 
 /*
