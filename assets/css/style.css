@@ -32,7 +32,7 @@ h3 {
     width: fit-content;
     margin: 0 auto;
     padding: 20px 20px;
-    font-weight: lighter;
+    font-weight: normal;
     line-height: 2em;
     letter-spacing: 0.1em;
 }
@@ -279,6 +279,8 @@ footer {
 
 #about-us {
     margin: 20px auto;
+    border-bottom: 1px solid #252525;
+    padding-bottom: 50px
 }
 
 .about-us-grid {
@@ -320,6 +322,7 @@ hr{
 .about-us-grid>div h2{
 padding: 0 5px;
 width: 100%;
+font-size:2.5em !important;
 padding-right: 20px;
 font-size: 1.1em;
 border-bottom: none;
@@ -353,6 +356,7 @@ border-bottom: none;
 }
 #about-us p{
     width: 80%;
+    font-size: 1.3rem;
 }
 
 .text-align-left{
@@ -696,12 +700,6 @@ input[type=submit]:hover {
         width: fit-content;
         padding: 4%;
         background: rgba(255, 255, 255, 0.4);
-    }
-
-    /*about us */
-
-    #about-us-container {
-        width: 100%;
     }
 
     /* self guided section */
