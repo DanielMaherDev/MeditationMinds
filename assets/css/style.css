@@ -381,7 +381,6 @@ footer{
 
 .exercise {
     width: 80%;
-    grid-area: 2 / 1 / 5 / 3;
     padding-bottom: 50px;
     text-align: left;
     margin: 20px auto;
@@ -476,9 +475,8 @@ iframe {
 
 #communal-desc {
     width: 90%;
-    margin-bottom: 20px;
-
 }
+
 
 #self-guided {}
 
@@ -708,7 +706,7 @@ input[type=text], input[type=email], textarea {
     .guide-content-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 50px;
     }
