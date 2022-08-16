@@ -508,6 +508,9 @@ iframe {
 
 @media screen and (min-width: 768px) {
 
+    p{
+        font-size: 0.8em;
+    }
     /* navigation */
     .hamburger {
         display: none;
@@ -677,6 +680,10 @@ iframe {
 /* Styling for large screens */
 
 @media screen and (min-width: 1200px) {
+
+    p {
+        font-size: 1.2em;
+    }
 
     /* self guided animations */
     #breath:hover h3 {
