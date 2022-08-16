@@ -39,7 +39,7 @@ p {
     margin: 40px auto;
 }
 
-ol li{
+ol li {
     font-size: 1.2em;
 }
 
@@ -258,6 +258,7 @@ ol li{
 #reset-guide {
     border-bottom: 1px solid blacrgb(30, 30, 30);
     background: url('../images/reset.webp') no-repeat center center;
+    background-size: cover;
 }
 
 
@@ -268,8 +269,8 @@ ol li{
     padding-top: 25px;
 }
 
-#about-us-container{
-}
+#about-us-container {}
+
 #about-us {
     width: 80%;
     margin: 20px auto;
@@ -305,27 +306,28 @@ ol li{
     left: 1%;
     bottom: 2%;
     width: fit-content;
-    background-color: rgba(30,30,30,.9);
+    background-color: rgba(30, 30, 30, .9);
     z-index: 3;
 }
 
 #back-to-top a:hover {
-    color:rgb(30, 30, 30);
+    color: rgb(30, 30, 30);
 }
 
 
-#back-to-top a:hover i, #back-to-top a:hover {
+#back-to-top a:hover i,
+#back-to-top a:hover {
     animation-name: topclicked;
     animation-duration: 1s;
 }
 
-@keyframes topclicked{
-    0%{
+@keyframes topclicked {
+    0% {
         color: rgb(30, 30, 30);
 
     }
 
-    100%{
+    100% {
         background-color: rgb(30, 30, 30);
         color: white;
     }
@@ -399,7 +401,8 @@ ol li{
 
 #breath-guide {
     height: fit-content;
-    background: url('../images/breath.webp') center no-repeat;
+    background: url('../images/breath.webp') no-repeat center center;
+    background-size: cover;
     border-bottom: 1px solid rgb(30, 30, 30);
 }
 
@@ -407,18 +410,15 @@ ol li{
 #body-scan-guide {
     border-bottom: 1px solid rgb(30, 30, 30);
     background: url('../images/bodyscan.webp') no-repeat center center;
+    background-size: cover;
 }
 
 .guide-video {
     width: 80%;
     margin: 0 auto;
     grid-area: 1 / 2 / 2 / 3;
-    height: fit-content;
 }
 
-.guide-video-container{
-    height: fit-content;
-}
 
 #body-scan-guide .guide-text {
     width: 80%;
@@ -443,7 +443,7 @@ iframe {
     grid-area: 1 / 1 / 2 / 2;
 }
 
-#communal h3{
+#communal h3 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.9);
     margin-bottom: 20px;
 }
@@ -464,8 +464,7 @@ iframe {
 
 }
 
-#self-guided {
-}
+#self-guided {}
 
 .quote {
     margin: 0 auto;
@@ -486,31 +485,34 @@ iframe {
 #self-guided-nav {
     border: 2px solid rgb(30, 30, 30);
     border-radius: 10px;
-    width:fit-content;
+    width: fit-content;
     margin: 0 auto;
     padding: 5px 5px;
 }
 
-#self-guided-nav li{
+#self-guided-nav li {
     display: inline;
     padding: 3px 5px;
     border-right: 1px solid rgb(30, 30, 30);
 }
 
-#self-guided-nav li a{
+#self-guided-nav li a {
     text-decoration: none;
-    color:rgb(30, 30, 30);
+    color: rgb(30, 30, 30);
 }
-#self-guided-nav li:nth-child(3){
+
+#self-guided-nav li:nth-child(3) {
     border-right: none;
 }
+
 /* For medium screen sizes*/
 
 @media screen and (min-width: 768px) {
 
-    p{
+    p {
         font-size: 0.8em;
     }
+
     /* navigation */
     .hamburger {
         display: none;
@@ -664,9 +666,9 @@ iframe {
         height: 100%;
     }
 
-    iframe{
-        width:50%;
-        height:200px;
+    iframe {
+        width: 75%;
+        height: 300px;
     }
 
     .exercise {
