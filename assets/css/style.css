@@ -11,9 +11,9 @@
 body {
     font-family: 'Helvetica', serif;
     font-weight: 300;
-    color: rgb(30, 30, 30);
+    color: #565656;
     line-height: 1.5;
-    border-color: rgb(30, 30, 30);
+    border-color: #565656;
     text-align: center;
 }
 
@@ -24,7 +24,7 @@ body {
 h1,
 h2,
 h3 {
-    border-bottom: 1px solid rgb(30, 30, 30);
+    border-bottom: 1px solid #565656;
     width: fit-content;
     margin: 0 auto;
     padding: 20px 20px;
@@ -47,7 +47,7 @@ ol li {
 
 #logo {
     text-decoration: none;
-    color: rgb(30, 30, 30);
+    color: #565656;
 }
 
 /* navigation */
@@ -65,7 +65,7 @@ ol li {
     display: flex;
     align-items: center;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(239, 239, 239, 0.9);
     padding-top: 25px;
     position: fixed;
     left: -100%;
@@ -83,11 +83,11 @@ ol li {
 
 .nav-item a {
     text-decoration: none;
-    color: rgb(30, 30, 30)
+    color: #565656
 }
 
 .nav-item .active {
-    border-bottom: 1px solid rgb(30, 30, 30);
+    border-bottom: 1px solid #565656;
 }
 
 .nav-item a:hover {
@@ -117,7 +117,7 @@ ol li {
     margin: 5px auto;
     -webkit-transition: 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: rgb(30, 30, 30);
+    background-color: #565656;
 }
 
 .nav-menu li a {
@@ -191,7 +191,7 @@ ol li {
 }
 
 .subsection-button a {
-    background-color: rgb(30, 30, 30);
+    background-color: #565656;
     margin: 0 auto;
     border-radius: 2%;
     text-transform: uppercase;
@@ -202,8 +202,8 @@ ol li {
 
 .subsection-button a:hover {
     background-color: white;
-    color: rgb(30, 30, 30);
-    border: 2px solid rgb(30, 30, 30);
+    color: #565656;
+    border: 2px solid #565656;
 }
 
 
@@ -260,14 +260,14 @@ footer{
 }
 
 #reset-guide {
-    border-bottom: 1px solid blacrgb(30, 30, 30);
+    border-bottom: 1px solid blac#565656;
     background: url('../images/reset.webp') no-repeat center center;
     background-size: cover;
 }
 
 
 .info-inner {
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.9);
     height: 100%;
     width: 100%;
     padding-top: 25px;
@@ -278,6 +278,13 @@ footer{
 #about-us {
     width: 80%;
     margin: 20px auto;
+}
+
+#about-us > div{
+    background-color:  rgba(239, 239, 239, 0.6);
+    padding:20px 5px;
+    border-radius: 20px;
+    margin: 20px 0
 }
 
 #club-photo-container {
@@ -293,7 +300,7 @@ footer{
 }
 
 #club-photo {
-    border: 1px solid rgb(30, 30, 30);
+    border: 1px solid #565656;
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -315,7 +322,7 @@ footer{
 }
 
 #back-to-top a:hover {
-    color: rgb(30, 30, 30);
+    color: #565656;
 }
 
 
@@ -327,20 +334,20 @@ footer{
 
 @keyframes topclicked {
     0% {
-        color: rgb(30, 30, 30);
+        color: #565656;
 
     }
 
     100% {
-        background-color: rgb(30, 30, 30);
+        background-color: #565656;
         color: white;
     }
 }
 
 #back-to-top a {
     text-decoration: none;
-    background-color: rgb(30, 30, 30);
-    border: 1.5px solid rgb(30, 30, 30);
+    background-color: #565656;
+    border: 1.5px solid #565656;
     border-radius: 5%;
     padding: 3px 5px;
 
@@ -389,7 +396,7 @@ footer{
 
 .guide {
     width: 95%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     margin: 0 auto;
 }
 
@@ -407,12 +414,12 @@ footer{
     height: fit-content;
     background: url('../images/breath.webp') no-repeat center center;
     background-size: cover;
-    border-bottom: 1px solid rgb(30, 30, 30);
+    border-bottom: 1px solid #565656;
 }
 
 
 #body-scan-guide {
-    border-bottom: 1px solid rgb(30, 30, 30);
+    border-bottom: 1px solid #565656;
     background: url('../images/bodyscan.webp') no-repeat center center;
     background-size: cover;
 }
@@ -491,7 +498,7 @@ iframe {
 }
 
 #self-guided-nav {
-    border: 2px solid rgb(30, 30, 30);
+    border: 2px solid #565656;
     border-radius: 10px;
     width: fit-content;
     margin: 0 auto;
@@ -501,12 +508,12 @@ iframe {
 #self-guided-nav li {
     display: inline;
     padding: 3px 5px;
-    border-right: 1px solid rgb(30, 30, 30);
+    border-right: 1px solid #565656;
 }
 
 #self-guided-nav li a {
     text-decoration: none;
-    color: rgb(30, 30, 30);
+    color: #565656;
 }
 
 #self-guided-nav li:nth-child(3) {
@@ -524,7 +531,8 @@ iframe {
     margin: 0 auto;
     margin-top: 40px;
     padding: 10px;
-    border: 1px solid rgb(30, 30, 30);
+    border: 1px solid #565656;
+    background-color: #efefef
 }
 input[type=text], input[type=email], textarea {
     width: 100%;
@@ -538,8 +546,8 @@ input[type=text], input[type=email], textarea {
 
   input[type=submit] {
     width: 100%;
-    background-color: #04AA6D;
-    color: white;
+    background-color: #FF3b3f;
+    color: #efefef;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -550,7 +558,8 @@ input[type=text], input[type=email], textarea {
   
   /* Add a background color to the submit button on mouse-over */
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #caebf2;
+    color: #565656
   }
 /* For medium screen sizes*/
 
@@ -598,8 +607,8 @@ input[type=text], input[type=email], textarea {
 
     .nav-item a:hover {
         text-decoration: none;
-        text-shadow: 0 0 1px rgb(30, 30, 30);
-        color: rgba(53, 53, 53, 0.9)
+        text-shadow: 0 0 1px #565656;
+        color: #565656
     }
 
     .nav-item {
@@ -658,7 +667,7 @@ input[type=text], input[type=email], textarea {
         float: left;
         height: 400px;
         position: relative;
-        border-bottom: 1px solid rgb(30, 30, 30);
+        border-bottom: 1px solid #565656;
     }
 
     .guide-text {
@@ -681,7 +690,7 @@ input[type=text], input[type=email], textarea {
     }
 
     #backtotop-text:hover {
-        color: rgb(30, 30, 30)
+        color: #565656
     }
 
     #self-guided,
