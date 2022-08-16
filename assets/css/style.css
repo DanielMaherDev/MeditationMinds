@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
 
 /* defaults */
-
 * {
     padding: 0;
     margin: 0;
@@ -15,30 +14,26 @@ html {
 body {
     font-family: 'Helvetica', serif;
     font-weight: 300;
-    color: #565656;
+    color: #252525;
     line-height: 1.5;
-    border-color: #565656;
+    border-color: #252525;
     text-align: center;
-}
-
-#main>section {
-    margin: 20 auto;
 }
 
 h1,
 h2,
 h3 {
-    border-bottom: 1px solid #565656;
     width: fit-content;
     margin: 0 auto;
     padding: 20px 20px;
     font-weight: normal;
     line-height: 2em;
     letter-spacing: 0.1em;
+    font-size: 1.5em;
 }
 
-h1{
-    font-size:1.5em;
+h2{
+    border-bottom: 1px solid #252525;
 }
 p {
     font-size: 1.2em;
@@ -50,28 +45,29 @@ ol li {
     font-size: 1.2em;
 }
 
-/* logo */
+#main>section {
+    margin: 20 auto;
+}
 
-#logo {
+a { color: #252525;
     text-decoration: none;
-    color: #565656;
 }
 
 /* navigation */
-
 .navbar {
     min-height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #252525;
 }
 
 .nav-menu {
     display: flex;
     align-items: center;
     height: 100%;
+    background-color: rgb(239, 239, 239);
     background-color: rgba(239, 239, 239, 0.9);
     padding-top: 25px;
     position: fixed;
@@ -85,29 +81,20 @@ ol li {
 
 .nav-link {
     transition: 0.7s ease;
-
-}
-
-.nav-item a {
-    text-decoration: none;
-    color: #565656
 }
 
 .nav-item .active {
-    border-bottom: 1px solid #565656;
+    border-bottom: 1px solid #252525;
 }
 
 .nav-item a:hover {
-    text-decoration: none;
-    border-bottom: 1px solid black;
-
+    border-bottom: 1px solid #252525;
 }
 
 .nav-item {
     list-style-type: none;
     font-size: 1.5em;
     padding: 1em 0;
-
 }
 
 .nav-menu.active {
@@ -124,16 +111,14 @@ ol li {
     margin: 5px auto;
     -webkit-transition: 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #565656;
+    background-color: #252525;
 }
 
 .nav-menu li a {
     margin: 10px;
-
 }
 
 /* burger menu*/
-
 .hamburger {
     display: block;
     margin: 0;
@@ -141,7 +126,6 @@ ol li {
 }
 
 /* hero section */
-
 #hero {
     margin-top: 0 !important;
 }
@@ -167,7 +151,6 @@ ol li {
 
 #cover-text h2 {
     font-size: 1em;
-
 }
 
 .subsection-text {
@@ -176,7 +159,6 @@ ol li {
 }
 
 /* Self Guided Metitation Section */
-
 .self-guided h1 {
     border: none;
 }
@@ -202,25 +184,20 @@ ol li {
     margin: 0 auto;
     border-radius: 2%;
     text-transform: uppercase;
-    text-decoration: none;
     color: white;
     padding: 10px 20px;
 }
 
 .subsection-button a:hover {
     background-color: white;
-    color: #565656;
-    border: 2px solid #565656;
+    color: #252525;
+    border: 2px solid #252525;
 }
-
-
 
 #breath {
     background: url('../images/breath.webp') no-repeat center center;
     background-size: cover;
     z-index: 2;
-
-
 }
 
 #body-scan {
@@ -236,7 +213,6 @@ ol li {
 }
 
 /* footer */
-
 footer {
     margin-top: 50px;
 }
@@ -244,12 +220,10 @@ footer {
 #social-header {
     width: 100%;
     font-size: 1.2em;
-
 }
 
 .social-networks {
     font-size: 1.8em;
-
 }
 
 .social-networks>li {
@@ -267,11 +241,10 @@ footer {
 }
 
 #reset-guide {
-    border-bottom: 1px solid blac#565656;
+    border-bottom: 1px solid #252525;
     background: url('../images/reset.webp') no-repeat center center;
     background-size: cover;
 }
-
 
 .info-inner {
     background-color: rgba(255, 255, 255, 0.9);
@@ -284,8 +257,6 @@ footer {
     margin: 20px auto;
     border: 1px solid #252525;
     padding: 20px 0;
-
-
 }
 
 .about-us-grid {
@@ -300,16 +271,15 @@ footer {
 .left hr {
     width: 100%;
     height: 3px;
-    background-color: #565656;
+    background-color: #252525;
     overflow-x: hidden;
-
 }
 
 .right hr {
     width: 100%;
     margin-right: -50%;
     height: 3px;
-    background-color: #565656;
+    background-color: #252525;
 }
 
 hr {
@@ -322,7 +292,6 @@ hr {
     white-space: nowrap;
     margin: auto 0;
     padding: 0 10px;
-
 }
 
 #about-us h2 {
@@ -340,7 +309,6 @@ hr {
     font-size: 1.1em;
     border-bottom: none;
 }
-
 
 .about-us-grid>.right {
     grid-area: 1 / 2 / 2 / 3;
@@ -398,7 +366,6 @@ hr {
     color: #565656;
 }
 
-
 #back-to-top a:hover i,
 #back-to-top a:hover {
     animation-name: topclicked;
@@ -408,7 +375,6 @@ hr {
 @keyframes topclicked {
     0% {
         color: #565656;
-
     }
 
     100% {
@@ -418,12 +384,10 @@ hr {
 }
 
 #back-to-top a {
-    text-decoration: none;
     background-color: #565656;
     border: 1.5px solid #565656;
     border-radius: 5%;
     padding: 3px 5px;
-
 }
 
 #back-to-top a i {
@@ -431,7 +395,6 @@ hr {
 }
 
 /*self-guided page */
-
 #self-guided {
     margin-top: 20px;
 }
@@ -446,7 +409,6 @@ hr {
 }
 
 /* testing */
-
 .self-guided>* {
     margin: 20px 0;
 }
@@ -459,12 +421,9 @@ hr {
     height: fit-content
 }
 
-
-
 .exercise li {
     margin: 15px 0;
 }
-
 
 .guide {
     width: 95%;
@@ -486,12 +445,11 @@ hr {
     height: fit-content;
     background: url('../images/breath.webp') no-repeat center center;
     background-size: cover;
-    border-bottom: 1px solid #565656;
+    border-bottom: 1px solid #252525;
 }
 
-
 #body-scan-guide {
-    border-bottom: 1px solid #565656;
+    border-bottom: 1px solid #252525;
     background: url('../images/bodyscan.webp') no-repeat center center;
     background-size: cover;
 }
@@ -501,7 +459,6 @@ hr {
     margin: 0 auto;
     grid-area: 1 / 2 / 2 / 3;
 }
-
 
 #body-scan-guide .guide-text {
     width: 80%;
@@ -517,7 +474,6 @@ iframe {
     width: 100%;
     height: 300px;
 }
-
 
 .guide-text {
     width: 80%;
@@ -549,7 +505,6 @@ iframe {
     width: 90%;
 }
 
-
 #self-guided {}
 
 .quote {
@@ -578,30 +533,25 @@ iframe {
 #self-guided-nav li {
     display: inline;
     padding: 3px 5px;
-    border-right: 1px solid #565656;
+    border-right: 1px solid #252525;
 }
 
 #self-guided-nav li a {
-    text-decoration: none;
-    color: #565656;
+    color: #252525;
 }
 
 #self-guided-nav li:nth-child(3) {
     border-right: none;
 }
 
-
 /* form section */
-
 /* styles initially taken from https://www.w3schools.com/HOWTO/howto_css_stacked_form.asp */
-
-
 #form-container {
     width: 80%;
     margin: 0 auto;
     margin-top: 40px;
     padding: 10px;
-    border: 1px solid #565656;
+    border: 1px solid #252525;
     background-color: #efefef
 }
 
@@ -632,13 +582,11 @@ input[type=submit] {
 /* Add a background color to the submit button on mouse-over */
 input[type=submit]:hover {
     background-color: #caebf2;
-    color: #565656
+    color: #252525
 }
 
 /* For medium screen sizes*/
-
 @media screen and (min-width: 768px) {
-
     p {
         font-size: 0.8em;
     }
@@ -672,17 +620,10 @@ input[type=submit]:hover {
 
     .nav-link {
         transition: 0.7s ease;
-
-    }
-
-    .nav-item a {
-        text-decoration: none;
     }
 
     .nav-item a:hover {
-        text-decoration: none;
-        text-shadow: 0 0 1px #565656;
-        color: #565656
+        color: #252525
     }
 
     .nav-item {
@@ -699,7 +640,6 @@ input[type=submit]:hover {
     .nav-menu a {
         font-size: medium;
         margin: 10px;
-        text-decoration: none;
     }
 
     .nav-menu li a {
@@ -716,7 +656,6 @@ input[type=submit]:hover {
     }
 
     /* self guided section */
-
     #self-guided h2,
     #communal h2 {
         font-size: 1.5rem;
@@ -731,7 +670,7 @@ input[type=submit]:hover {
         float: left;
         height: 400px;
         position: relative;
-        border-bottom: 1px solid #565656;
+        border-bottom: 1px solid #252525;
     }
 
     .guide-text {
@@ -741,7 +680,6 @@ input[type=submit]:hover {
     .subsection-button {
         position: absolute;
         bottom: 25px;
-
     }
 
     #about-us {
@@ -771,7 +709,6 @@ input[type=submit]:hover {
     }
 
     /* self-guided page */
-
     .guide-content-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -780,7 +717,7 @@ input[type=submit]:hover {
         grid-row-gap: 50px;
     }
 
-    .guide-content-container img{
+    .guide-content-container img {
         width: 75%;
     }
 
@@ -806,12 +743,8 @@ input[type=submit]:hover {
     }
 }
 
-
-
 /* Styling for large screens */
-
 @media screen and (min-width: 1200px) {
-
     p {
         font-size: 1.2em;
     }
@@ -849,7 +782,6 @@ input[type=submit]:hover {
         display: block;
         z-index: 2;
         opacity: .5;
-
     }
 
     @keyframes scanner {
@@ -859,7 +791,6 @@ input[type=submit]:hover {
 
         25% {
             background-image: linear-gradient(to right, #486523, #159a41);
-
         }
 
         50% {
@@ -895,7 +826,6 @@ input[type=submit]:hover {
 
         49.9% {
             margin-left: 700px;
-
         }
 
         50% {
@@ -905,6 +835,5 @@ input[type=submit]:hover {
         100% {
             margin-left: calc(50% - 70px);
         }
-
     }
 }
