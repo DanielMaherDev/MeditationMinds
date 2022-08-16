@@ -32,13 +32,19 @@ h3 {
     font-size: 1.5em;
 }
 
-h2{
+h2 {
     border-bottom: 1px solid #252525;
 }
+
 p {
     font-size: 1.2em;
     line-height: 1.8em;
     margin: 40px auto;
+}
+
+a {
+    color: #252525;
+    text-decoration: none;
 }
 
 ol li {
@@ -47,10 +53,6 @@ ol li {
 
 #main>section {
     margin: 20 auto;
-}
-
-a { color: #252525;
-    text-decoration: none;
 }
 
 /* navigation */
@@ -83,18 +85,18 @@ a { color: #252525;
     transition: 0.7s ease;
 }
 
+.nav-item {
+    list-style-type: none;
+    font-size: 1.5em;
+    padding: 1em 0;
+}
+
 .nav-item .active {
     border-bottom: 1px solid #252525;
 }
 
 .nav-item a:hover {
     border-bottom: 1px solid #252525;
-}
-
-.nav-item {
-    list-style-type: none;
-    font-size: 1.5em;
-    padding: 1em 0;
 }
 
 .nav-menu.active {
@@ -126,13 +128,9 @@ a { color: #252525;
 }
 
 /* hero section */
-#hero {
-    margin-top: 0 !important;
-}
 
 #hero-image {
     height: 500px;
-    width: 100%;
     background: url('../images/hero-image.webp') no-repeat center center;
     background-size: cover;
 }
@@ -143,7 +141,8 @@ a { color: #252525;
     margin: 0 auto;
 }
 
-#cover-text * {
+#cover-text h1,
+#cover-text h2 {
     border: none;
     letter-spacing: normal;
     padding: 5px;
@@ -153,105 +152,7 @@ a { color: #252525;
     font-size: 1em;
 }
 
-.subsection-text {
-    width: 90%;
-    margin: 20px 20px 40px 20px;
-}
-
-/* Self Guided Metitation Section */
-.self-guided h1 {
-    border: none;
-}
-
-#self-guided h2,
-#communal h2 {
-    font-size: 1.2rem;
-}
-
-.info-section {
-    margin-bottom: 10px;
-    min-height: 300px;
-    height: 450px;
-}
-
-.subsection-button {
-    width: 100%;
-    margin: 25px 0px;
-}
-
-.subsection-button a {
-    background-color: #252525;
-    margin: 0 auto;
-    border-radius: 2%;
-    text-transform: uppercase;
-    color: white;
-    padding: 10px 20px;
-}
-
-.subsection-button a:hover {
-    background-color: white;
-    color: #252525;
-    border: 2px solid #252525;
-}
-
-#breath {
-    background: url('../images/breath.webp') no-repeat center center;
-    background-size: cover;
-    z-index: 2;
-}
-
-#body-scan {
-    background: url('../images/bodyscan.webp') no-repeat center center;
-    background-size: cover;
-    z-index: 2;
-}
-
-#reset {
-    background: url('../images/reset.webp') no-repeat center center;
-    background-size: cover;
-    height: 500px
-}
-
-/* footer */
-footer {
-    margin-top: 50px;
-}
-
-#social-header {
-    width: 100%;
-    font-size: 1.2em;
-}
-
-.social-networks {
-    font-size: 1.8em;
-}
-
-.social-networks>li {
-    display: inline;
-}
-
-.social-networks i {
-    margin: 2.5%;
-    padding: 5px 5px;
-    color: #FF3b3f;
-}
-
-.social-networks a {
-    color: inherit;
-}
-
-#reset-guide {
-    border-bottom: 1px solid #252525;
-    background: url('../images/reset.webp') no-repeat center center;
-    background-size: cover;
-}
-
-.info-inner {
-    background-color: rgba(255, 255, 255, 0.9);
-    height: 100%;
-    width: 100%;
-    padding-top: 25px;
-}
+/* about us section */
 
 #about-us {
     margin: 20px auto;
@@ -349,6 +250,133 @@ hr {
     text-align: right;
 }
 
+/* Self Guided Metitation Section */
+
+#self-guided h2,
+#communal h2 {
+    font-size: 1.2rem;
+}
+
+.info-section {
+    margin-bottom: 10px;
+    height: 450px;
+}
+
+.subsection-text {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.subsection-button {
+    width: 100%;
+    margin: 25px 0px;
+}
+
+.subsection-button a {
+    background-color: #252525;
+    margin: 0 auto;
+    border-radius: 2%;
+    color: white;
+    padding: 10px 20px;
+}
+
+.subsection-button a:hover {
+    background-color: white;
+    color: #252525;
+    border: 2px solid #252525;
+}
+
+.info-inner {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 100%;
+    width: 100%;
+    padding-top: 25px;
+}
+
+#self-guided {
+    margin-top: 20px;
+}
+
+#breath {
+    background: url('../images/breath.webp') no-repeat center center;
+    background-size: cover;
+    z-index: 2;
+}
+
+#body-scan {
+    background: url('../images/bodyscan.webp') no-repeat center center;
+    background-size: cover;
+    z-index: 2;
+}
+
+#reset {
+    background: url('../images/reset.webp') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+
+/* communal section */
+
+
+#communal h3 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+    margin-bottom: 20px;
+}
+
+#communal-one {
+    background: url('../images/salthill.webp') no-repeat center center;
+    background-size: cover;
+}
+
+#communal-two {
+    background: url('../images/forest.webp') no-repeat center center;
+    background-size: cover;
+}
+
+#communal-desc {
+    width: 90%;
+}
+
+#communal>div {
+    color: rgba(255, 255, 255, 0.85)
+}
+
+#communal .info-inner {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#communal .info-inner * {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* footer */
+footer {
+    margin-top: 50px;
+}
+
+#social-header {
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.social-networks {
+    font-size: 1.8em;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    margin: 2.5%;
+    padding: 5px 5px;
+    color: #FF3b3f;
+}
+
+.social-networks a {
+    color: inherit;
+}
+
 #backtotop-text {
     display: none;
 }
@@ -395,20 +423,17 @@ hr {
 }
 
 /*self-guided page */
-#self-guided {
-    margin-top: 20px;
-}
 
 #pageheader {
     width: 100%;
 }
 
-.self-guided .subsection {
+.self-guided-page-main .subsection {
     min-height: 600px;
     padding: 10px 0;
 }
 
-.self-guided>* {
+.self-guided-page-main>* {
     margin: 20px 0;
 }
 
@@ -442,28 +467,10 @@ hr {
     width: 80%;
     font-size: 0.85em;
     padding: 20px 0;
-}
-
-#breath-guide {
-    height: fit-content;
-    background: url('../images/breath.webp') no-repeat center center;
-    background-size: cover;
-    border-bottom: 1px solid #252525;
-}
-
-#body-scan-guide {
-    border-bottom: 1px solid #252525;
-    background: url('../images/bodyscan.webp') no-repeat center center;
-    background-size: cover;
+    margin: 0 auto;
 }
 
 .guide-video {
-    width: 80%;
-    margin: 0 auto;
-    grid-area: 1 / 2 / 2 / 3;
-}
-
-#body-scan-guide .guide-text {
     width: 80%;
     margin: 0 auto;
     grid-area: 1 / 2 / 2 / 3;
@@ -484,46 +491,34 @@ iframe {
     grid-area: 1 / 1 / 2 / 2;
 }
 
+#breath-guide {
+    height: fit-content;
+    background: url('../images/breath.webp') no-repeat center center;
+    background-size: cover;
+    border-bottom: 1px solid #252525;
+}
+
+#body-scan-guide {
+    border-bottom: 1px solid #252525;
+    background: url('../images/bodyscan.webp') no-repeat center center;
+    background-size: cover;
+}
+
+#reset-guide {
+    border-bottom: 1px solid #252525;
+    background: url('../images/reset.webp') no-repeat center center;
+    background-size: cover;
+}
+
+#body-scan-guide .guide-text {
+    width: 80%;
+    margin: 0 auto;
+    grid-area: 1 / 2 / 2 / 3;
+}
+
 #body-scan-guide .guide-video {
     margin: 0 auto;
     grid-area: 1 / 1 / 2 / 2;
-}
-
-#communal h3 {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
-    margin-bottom: 20px;
-}
-
-#communal-one {
-    background: url('../images/salthill.webp') no-repeat center center;
-    background-size: cover;
-}
-
-#communal-two {
-    background: url('../images/forest.webp') no-repeat center center;
-    background-size: cover;
-}
-
-#communal-desc {
-    width: 90%;
-}
-
-#self-guided {}
-
-.quote {
-    margin: 0 auto;
-}
-
-#communal>div {
-    color: rgba(255, 255, 255, 0.85)
-}
-
-#communal .info-inner {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-#communal .info-inner * {
-    color: rgba(255, 255, 255, 0.85) !important;
 }
 
 #self-guided-nav {
@@ -585,7 +580,7 @@ input[type=submit] {
 /* Add a background color to the submit button on mouse-over */
 input[type=submit]:hover {
     background-color: #caebf2;
-    color: #252525
+    color: #252525;
 }
 
 /* For medium screen sizes*/
