@@ -22,7 +22,7 @@ body {
 }
 
 #main>section {
-    margin: 50px auto;
+    margin: 20 auto;
 }
 
 h1,
@@ -280,7 +280,7 @@ footer {
 #about-us {
     margin: 20px auto;
     border: 1px solid #252525;
-    padding: 50px 0;
+    padding: 20px 0;
 
 
 }
@@ -322,10 +322,10 @@ hr{
 }
 
 #about-us h2{
-    font-size: 3em !important;
+    font-size: 1.5em !important;
     margin: 0 auto;
     border-bottom: none;
-    padding: 20px 0;
+    padding-bottom: 30px 0;
 }
 .about-us-grid>div h3{
 padding: 0 5px;
@@ -563,11 +563,10 @@ iframe {
 }
 
 #self-guided-nav {
-    border: 2px solid #565656;
     border-radius: 10px;
     width: fit-content;
     margin: 0 auto;
-    padding: 5px 5px;
+    padding: 5px 20px;
 }
 
 #self-guided-nav li {
