@@ -286,7 +286,7 @@ footer {
     grid-row-gap: 0px;
 }
 
-.about-us-grid>div {
+.about-us-grid>.about-title {
     grid-area: 1 / 1 / 2 / 2;
     width:100%;
     white-space: nowrap;
@@ -304,13 +304,16 @@ font-size: 1.1em;
 }
 
 
-.about-us-grid > img{
+.about-us-grid > .right{
     grid-area: 1 / 2 / 2 / 3;
     border-radius: 50%;
     width:100%;
     max-width: 200px;
 }
 
+.about-image img{
+    border-radius: 50%;
+}
 #about-us p{
     text-align: right;
     width: 80%;
