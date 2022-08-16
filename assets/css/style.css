@@ -408,9 +408,12 @@ hr {
     padding: 10px 0;
 }
 
-/* testing */
 .self-guided>* {
     margin: 20px 0;
+}
+
+.guide-content-container img {
+    width: 75%;
 }
 
 .exercise {
@@ -715,10 +718,6 @@ input[type=submit]:hover {
         grid-template-rows: repeat(1, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 50px;
-    }
-
-    .guide-content-container img {
-        width: 75%;
     }
 
     #communal .info-section {
