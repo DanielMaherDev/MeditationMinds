@@ -286,6 +286,19 @@ footer {
     margin: 10px
 }
 
+.left hr{
+    width:110%;
+    margin-left: -20%;
+    height: 3px;
+    background-color: #565656;
+}
+
+.right hr{
+    width:200%;
+    margin-right: -50%;
+    height: 3px;
+    background-color: #565656;
+}
 .about-us-grid>.about-title {
     grid-area: 1 / 1 / 2 / 2;
     width:100%;
@@ -300,7 +313,7 @@ padding: 0 5px;
 width: 100%;
 padding-right: 20px;
 font-size: 1.1em;
-
+border-bottom: none;
 }
 
 
@@ -309,6 +322,10 @@ font-size: 1.1em;
     border-radius: 50%;
     width:100%;
     max-width: 200px;
+}
+
+.left img{
+    float:right;
 }
 
 .about-image{
@@ -771,7 +788,7 @@ input[type=submit]:hover {
     }
 
     #about-us {
-        width: 50%;
+        width: 65%;
     }
 
     #backtotop-text {
