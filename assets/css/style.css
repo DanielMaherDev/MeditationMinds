@@ -229,7 +229,7 @@ ol li {
 #reset {
     background: url('../images/reset.webp') no-repeat center center;
     background-size: cover;
-    overflow: hidden;
+    height:500px
 }
 
 /* footer */
@@ -279,8 +279,10 @@ footer {
 
 #about-us {
     margin: 20px auto;
-    border-bottom: 1px solid #252525;
-    padding-bottom: 50px
+    border: 1px solid #252525;
+    padding: 50px 0;
+
+
 }
 
 .about-us-grid {
@@ -319,7 +321,13 @@ hr{
 
 }
 
-.about-us-grid>div h2{
+#about-us h2{
+    font-size: 3em !important;
+    margin: 0 auto;
+    border-bottom: none;
+    padding: 20px 0;
+}
+.about-us-grid>div h3{
 padding: 0 5px;
 width: 100%;
 font-size:2.5em !important;
@@ -751,6 +759,10 @@ input[type=submit]:hover {
 
     section>div>p {
         width: 50%;
+    }
+
+    #reset {
+        height:400px !important;
     }
 
     /* self-guided page */
