@@ -161,7 +161,7 @@ ol li {
 }
 
 #about-us-container{
-    background: url('../images/ben-collins-N7MrTtDIMWg-unsplash.jpg') no-repeat center center;
+    background: url('../images/about-us-background.webp') no-repeat center center;
     background-size: cover;
     padding: 60px 0
 }
@@ -569,7 +569,7 @@ iframe {
 }
 
 .form-main{
-    background: url(../images/form-background.jpg) no-repeat center center;
+    background: url(../images/form-background.webp) no-repeat center center;
     background-size: cover;
     padding: 50px 0;
 }
