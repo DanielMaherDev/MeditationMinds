@@ -155,8 +155,8 @@ ol li {
 /* about us section */
 
 #about-us {
-    margin: 20px auto;
-    border: 1px solid #252525;
+    margin: 60px auto;
+    border: 2px solid #252525;
     border-radius: 20px;
     padding: 20px 0;
 }
@@ -612,6 +612,19 @@ input[type=submit]:hover {
     color: #252525;
 }
 
+/* Thank you page */
+
+#thank-you-message{
+    background-color: rgba(255, 255, 255, 0.75);
+    width:50%;
+    border-radius: 20px;
+    margin: 50px auto;
+    padding: 50px 20px;
+}
+#thank-you-message h2{
+
+    border-bottom: none;
+}
 /* For medium screen sizes*/
 @media screen and (min-width: 768px) {
     p {
