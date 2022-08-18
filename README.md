@@ -92,10 +92,17 @@ The content witin each of the 3 sections is styled using grid within the css sty
 
 Similar tp previous sections, this grid layout will collapse on smaller screen sizes.
 
-#### Desktop
 ![](assets/readmeimages/self-guided-page-desktop.png)
 
 ### Contact Us Page
+The contact us page contains the familiar basic header and footer structure, along with a form. 
+This form collects the full name and email address of the user submitting the form. Along with this, it collects the users query.
+The form will then redirect the user to a thank you page, with navigation links to the other sections of our site.
+
+![](assets/readmeimages/contact-us.png)
+
+
+
 ## 3. Future features what would like to add in the future
 * Future features shall include a blog page, where a comments section will be available to the visiting user and can express any questions, concerns or thoughts on the topic. 
 * The future feature shall include more immersive animation to engage th visiting user and communicate the world of Metaverse with immersive videos.
