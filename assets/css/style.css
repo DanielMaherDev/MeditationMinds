@@ -71,7 +71,6 @@ ol li {
     display: flex;
     align-items: center;
     height: 100%;
-    background-color: rgb(239, 239, 239);
     background-color: rgba(239, 239, 239, 0.9);
     padding-top: 25px;
     position: fixed;
@@ -408,12 +407,12 @@ footer {
     left: 1%;
     bottom: 2%;
     width: fit-content;
-    background-color: rgba(30, 30, 30, .9);
+    background-color: #252525;
     z-index: 3;
 }
 
 #back-to-top a:hover {
-    color: #565656;
+    color: #252525;
 }
 
 #back-to-top a:hover i,
@@ -424,7 +423,7 @@ footer {
 
 @keyframes topclicked {
     0% {
-        color: #565656;
+        color: #252525;
     }
 
     100% {
@@ -434,8 +433,8 @@ footer {
 }
 
 #back-to-top a {
-    background-color: #565656;
-    border: 1.5px solid #565656;
+    background-color: #252525;
+    border: 1.5px solid #252525;
     border-radius: 5%;
     padding: 3px 5px;
 }
@@ -627,7 +626,7 @@ input[type=submit] {
 
 /* Add a background color to the submit button on mouse-over */
 input[type=submit]:hover {
-    background-color: #caebf2;
+    background-color: #efefef;
     color: #252525;
 }
 
@@ -684,7 +683,7 @@ input[type=submit]:hover {
     }
 
     .nav-item a:hover {
-        color: #252525
+        color: #252525;
     }
 
     .nav-item {
@@ -768,7 +767,7 @@ input[type=submit]:hover {
     }
 
     #backtotop-text:hover {
-        color: #565656
+        color: #252525;
     }
 
     #self-guided {

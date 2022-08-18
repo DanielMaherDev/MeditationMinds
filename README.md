@@ -108,7 +108,9 @@ The form will then redirect the user to a thank you page, with navigation links 
 * Currently the form redirects to a thank you page but does not send the form imformation anywhere. This is something I am looking to introduce in a future release.
 
 ## 4. Typography and colour scheme
-The Typography used on the site was Bellota Text Light 300 and was taken from [Google Fonts](https://fonts.google.com/specimen/Bellota+Text?category=Display,Monospace)
+The Typography used on the site was Oxygen Light 300 and was taken from [Google Fonts](https://fonts.google.com/specimen/Oxygen).
+I wanted the site to feel light, and spacious, and I feel this font allowed for this.
+
 The scheme of the colours used for the site is this:
 ![](assets/ReadMeImages/colourpallete.png)
 
