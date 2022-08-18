@@ -52,6 +52,13 @@ The text overlay on desktop has a white semi-opaque background on desktop to all
 ### About Us Section
 Further down from the hero image we have the about us section. This is to provide the user with basic information about the community.
 
+
+#### Desktop
+![](assets/readmeimages/about-us-desktop.png)
+
+#### Mobile
+![](assets/readmeimages/about-us-mobile.png)
+
 ### Self Guided Section
 Below the about us section, you will find the self-guided section. This section provides 3 blocks of information regarding our self guided meditations. Each section contains a button which redirects to a specific anchor link on the self-guided meditation page.
 Each block also includes a hover effect on desktop screens, which should produce an animation revelant to the exercise mentioned.
@@ -63,11 +70,11 @@ Each block also includes a hover effect on desktop screens, which should produce
 ![](assets/readmeimages/self-guided-section-mobile.png)
 
 
-### Thank You Page
-As visiting user, they will land on the Thank You Page when they have submitted their information in the Sign-Up form for the Metaverse Lovers Newsletter.
-This section is valuable to the visiting user as they will get the subscription confirmation with an eye-catching video and a thank you message to boost the engagement.
-This section is only visible after submitting the form, and they cannot land on that page otherwise.
+### Communal Meditation Section
 
+Below the self-guided meditation section is a section regarding our communal meditation. This is also referenced in the navigation bar.
+
+This section provides information on our group meditations, occuring twice monthly. Similar to the Self-Guided section, this section is set to show each block side by side on desktop and on top of one another on mobile.
 ![](assets/ReadMeImages/thankyou_Desktop.png)
 
 ### The Footer
