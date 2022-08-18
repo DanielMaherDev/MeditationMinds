@@ -158,12 +158,13 @@ ol li {
     margin: 0px auto;
     padding: 20px 0;
     background-color: rgba(255, 255, 255, 0.8);
+    
 }
 
 #about-us-container {
     background: url('../images/about-us-background.webp') no-repeat center center;
     background-size: cover;
-    padding: 60px 0
+    padding: 60px 0 0 0;
 }
 
 .about-us-grid {
