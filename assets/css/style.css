@@ -157,10 +157,10 @@ ol li {
 #about-us {
     margin: 0px auto;
     padding: 20px 0;
-    background-color: rgba(255 , 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
-#about-us-container{
+#about-us-container {
     background: url('../images/about-us-background.webp') no-repeat center center;
     background-size: cover;
     padding: 60px 0
@@ -263,7 +263,7 @@ hr {
     font-size: 1.2rem;
 }
 
-#self-guided h3{
+#self-guided h3 {
     color: #FF3b3f;
 }
 
@@ -558,9 +558,9 @@ iframe {
 
 /* form section */
 
-#contact-us-details{
+#contact-us-details {
     padding: 20px 20px;
-    width:80%;
+    width: 80%;
     border: 2px solid #252525;
     background-color: rgba(255, 255, 255, 0.7);
     margin: 0 auto;
@@ -568,11 +568,12 @@ iframe {
 
 }
 
-.form-main{
+.form-main {
     background: url(../images/form-background.webp) no-repeat center center;
     background-size: cover;
     padding: 50px 0;
 }
+
 /* styles initially taken from https://www.w3schools.com/HOWTO/howto_css_stacked_form.asp */
 
 
@@ -596,7 +597,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 input[type=submit] {
@@ -619,17 +620,19 @@ input[type=submit]:hover {
 
 /* Thank you page */
 
-#thank-you-message{
+#thank-you-message {
     background-color: rgba(255, 255, 255, 0.75);
-    width:50%;
+    width: 50%;
     border-radius: 20px;
     margin: 50px auto;
     padding: 50px 20px;
 }
-#thank-you-message h2{
+
+#thank-you-message h2 {
 
     border-bottom: none;
 }
+
 /* For medium screen sizes*/
 @media screen and (min-width: 768px) {
     p {
@@ -787,8 +790,9 @@ input[type=submit]:hover {
         margin: 0 auto;
     }
 
-    #form-container, #contact-us-details {
-        width:50%;
+    #form-container,
+    #contact-us-details {
+        width: 50%;
     }
 }
 
@@ -835,7 +839,7 @@ input[type=submit]:hover {
 
     @keyframes scanner {
         0% {
-            opacity:.5;
+            opacity: .5;
             top: 0;
         }
 
@@ -844,7 +848,7 @@ input[type=submit]:hover {
         }
 
         50% {
-            opacity:.5;
+            opacity: .5;
             top: 100%;
             background-image: linear-gradient(to right, #76ba1b, #1E5631);
         }
@@ -854,7 +858,7 @@ input[type=submit]:hover {
         }
 
         100% {
-            opacity:.5;
+            opacity: .5;
             top: 0;
             background-image: linear-gradient(to right, #1E5631, #76ba1b);
         }
