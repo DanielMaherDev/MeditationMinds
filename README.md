@@ -75,7 +75,7 @@ Each block also includes a hover effect on desktop screens, which should produce
 Below the self-guided meditation section is a section regarding our communal meditation. This is also referenced in the navigation bar.
 
 This section provides information on our group meditations, occuring twice monthly. Similar to the Self-Guided section, this section is set to show each block side by side on desktop and on top of one another on mobile.
-![](assets/ReadMeImages/thankyou_Desktop.png)
+![](assets/readmeimages/communal-desktop.png)
 
 ### The Footer
 The footer section includes links to the relevant social media sites for our meditation group. As there is no actual social media accounts setup, these links will simply navigate to the homepage of the social media site in question.
