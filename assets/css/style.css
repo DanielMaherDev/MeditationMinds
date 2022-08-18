@@ -743,6 +743,17 @@ input[type=submit]:hover {
         width: 65%;
     }
 
+    .about-image{
+        width: 100%;
+    }
+
+    .about-image img{
+        width: 100%;
+    }
+
+    #about-us p{
+        padding: 0 50px;
+    }
     #backtotop-text {
         display: contents;
         color: white;

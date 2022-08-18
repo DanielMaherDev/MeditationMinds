@@ -52,21 +52,16 @@ The text overlay on desktop has a white semi-opaque background on desktop to all
 ### About Us Section
 Further down from the hero image we have the about us section. This is to provide the user with basic information about the community.
 
-<!--->
-![](assets/ReadMeImages/HomePage.png)
-![](assets/ReadMeImages/Homepage2.png)
+### Self Guided Section
+Below the about us section, you will find the self-guided section. This section provides 3 blocks of information regarding our self guided meditations. Each section contains a button which redirects to a specific anchor link on the self-guided meditation page.
+Each block also includes a hover effect on desktop screens, which should produce an animation revelant to the exercise mentioned.
 
-### About Us Page
-On the About Us page, as a visiting user, they will learn more about the profiles of the site's owners. That occurs by providing a small introduction about the owners, goals, vision and purpose.
-This section is valuable to the visiting user due to the better picture of the purpose of this site, the owners' vision and identity.
+#### Desktop
+![](assets/readmeimages/self-guided-section-desktop.png)
 
-![](assets/ReadMeImages/AboutUs.png)
+#### Mobile
+![](assets/readmeimages/self-guided-section-mobile.png)
 
-### Sign Up Page
-The Sign Up page will allow the visiting user to get signed up to Metvarese Lovers Newsletter.
-As a visiting user, they will be asked to submit their full name and email address.
-
-![](assets/ReadMeImages/signup.png)
 
 ### Thank You Page
 As visiting user, they will land on the Thank You Page when they have submitted their information in the Sign-Up form for the Metaverse Lovers Newsletter.
