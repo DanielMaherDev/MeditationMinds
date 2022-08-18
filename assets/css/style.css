@@ -492,6 +492,7 @@ footer {
 
 .guide-text img {
     border-radius: 20px;
+    height: 100%;
 }
 
 iframe {
