@@ -41,7 +41,7 @@ The homepage (index.html) contains a large hero image at the top of the page, al
 The text overlay on desktop has a white semi-opaque background on desktop to allow for sufficient contrast and moves on smaller screen sizes for compatibility.
 
 #### Desktop
-![](assets/ReadMeImages/hero-desktop.png)
+![](assets/readmeimages/hero-desktop.png)
 
 #### Mobile
-![](assets/ReadMeImages/hero-mobile.png)
+![](assets/readmeimages/hero-mobile.png)
