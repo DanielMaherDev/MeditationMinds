@@ -75,7 +75,7 @@ Each block also includes a hover effect on desktop screens, which should produce
 Below the self-guided meditation section is a section regarding our communal meditation. This is also referenced in the navigation bar.
 
 This section provides information on our group meditations, occuring twice monthly. Similar to the Self-Guided section, this section is set to show each block side by side on desktop and on top of one another on mobile.
-![](assets/readmeimages/communal_desktop.png)
+![](assets/readmeimages/communal-desktop.png)
 
 ### The Footer
 The footer section includes links to the relevant social media sites for Metaverse Lovers. In this case, the links will land to Code Institute social accounts since the Metaverse Lovers page does not exist in reality. The links will open to a new tab to allow easy navigation for the user.
