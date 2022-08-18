@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
 /* defaults */
 * {
     padding: 0;
@@ -12,7 +14,7 @@ html {
 }
 
 body {
-    font-family: 'Helvetica', serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight: 300;
     color: #252525;
     line-height: 1.5;

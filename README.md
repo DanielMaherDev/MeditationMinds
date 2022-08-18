@@ -102,10 +102,10 @@ The form will then redirect the user to a thank you page, with navigation links 
 ![](assets/readmeimages/contact-us.png)
 
 
-
-## 3. Future features what would like to add in the future
-* Future features shall include a blog page, where a comments section will be available to the visiting user and can express any questions, concerns or thoughts on the topic. 
-* The future feature shall include more immersive animation to engage th visiting user and communicate the world of Metaverse with immersive videos.
+## 3. Future Changes & Features
+* I plan to include a LinkedIn option within my social links on the footer of this pahe
+* Future releases will see improvement of the layout within the self-guided page. This site was designed mobile first, but this page could be restructured to make it more compatible with larger screens
+* Currently the form redirects to a thank you page but does not send the form imformation anywhere. This is something I am looking to introduce in a future release.
 
 ## 4. Typography and colour scheme
 The Typography used on the site was Bellota Text Light 300 and was taken from [Google Fonts](https://fonts.google.com/specimen/Bellota+Text?category=Display,Monospace)
