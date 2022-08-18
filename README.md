@@ -112,7 +112,7 @@ The Typography used on the site was Oxygen Light 300 and was taken from [Google 
 I wanted the site to feel light, and spacious, and I feel this font allowed for this.
 
 The scheme of the colours used for the site is this:
-![](assets/ReadMeImages/colourpallete.png)
+![](assets/ReadMeImages/color-pallete.png)
 
 ## 5. Technology
 After studying the HTML and CSS essentials course with Code Institute, this project was created in Git pod using HTML and CSS languages.
