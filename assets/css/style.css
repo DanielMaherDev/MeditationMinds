@@ -627,7 +627,7 @@ input[type=submit]:hover {
 
 #thank-you-message {
     background-color: rgba(255, 255, 255, 0.75);
-    width: 50%;
+    width: 90%;
     border-radius: 20px;
     margin: 50px auto;
     padding: 50px 20px;
@@ -799,9 +799,16 @@ input[type=submit]:hover {
         margin: 0 auto;
     }
 
+    /* contact us page */
+
     #form-container,
     #contact-us-details {
         width: 50%;
+    }
+    
+    /* thankyou page */
+    #thank-you-message {
+        width:50%;
     }
 }
 
