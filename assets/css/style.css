@@ -241,6 +241,7 @@ hr {
     width: 90%;
     max-width: 180px;
     min-width: 100px;
+    height: 100%;
 }
 
 #about-us p {
@@ -492,7 +493,6 @@ footer {
 
 .guide-text img {
     border-radius: 20px;
-    height: 100%;
 }
 
 iframe {
