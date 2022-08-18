@@ -228,6 +228,10 @@ hr {
     max-width: 200px;
 }
 
+.image-container{
+    overflow: hidden;
+}
+
 .left img {
     float: right;
     overflow-x: hidden;
@@ -454,7 +458,9 @@ footer {
 }
 
 .guide-content-container img {
-    width: 75%;
+    width:70%;
+    max-width: 300px;
+    height: auto;
 }
 
 .exercise {

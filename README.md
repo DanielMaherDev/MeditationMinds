@@ -61,7 +61,7 @@ Further down from the hero image we have the about us section. This is to provid
 
 ### Self Guided Section
 Below the about us section, you will find the self-guided section. This section provides 3 blocks of information regarding our self guided meditations. Each section contains a button which redirects to a specific anchor link on the self-guided meditation page.
-Each block also includes a hover effect on desktop screens, which should produce an animation revelant to the exercise mentioned.
+Each block also includes a hover effect on desktop screens, which should produce an animation revelant to the exercise mentioned. These animations were made purely with HTML & CSS.
 
 #### Desktop
 ![](assets/readmeimages/self-guided-section-desktop.png)
@@ -84,6 +84,18 @@ The footer appears on all pages of the website.
 
 ![](assets/readmeimages/footer.png)
 
+### Self Guided Page
+
+This page provides information on the 3 different self-guided blocks on the homepage. This page is also referenced in the navigation on each page.
+The top of this page features a sub navigation below the title, linking to each of the sections on this page, breath, body scan, and reset.
+The content witin each of the 3 sections is styled using grid within the css stylesheet.
+
+Similar tp previous sections, this grid layout will collapse on smaller screen sizes.
+
+#### Desktop
+![](assets/readmeimages/self-guided-page-desktop.png)
+
+### Contact Us Page
 ## 3. Future features what would like to add in the future
 * Future features shall include a blog page, where a comments section will be available to the visiting user and can express any questions, concerns or thoughts on the topic. 
 * The future feature shall include more immersive animation to engage th visiting user and communicate the world of Metaverse with immersive videos.
