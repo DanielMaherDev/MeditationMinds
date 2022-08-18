@@ -27,10 +27,21 @@ Resources are provided on this site to fulfill this need, and a contact us page 
 The navigation bar, like the rest of this site, was designed mobile-first. 
 It appears at the top of all pages within this site, and as a burger menu on mobile devices.
 This section will allow the visiting user to easily navigate from page to page across all devices without reverting to the previous page via the 'back' button.
+The navigation has been implemented with a hover effect on desktop when hovering over a link.
 
-### Desktop
+#### Desktop
 ![](assets/readmeimages/nav-desktop.png)
 
-### Mobile
+#### Mobile
 ![](assets/readmeimages/nav-mobile.png)
 
+
+### The landing page image
+The homepage (index.html) contains a large hero image at the top of the page, along with the title of the website and a short description.
+The text overlay on desktop has a white semi-opaque background on desktop to allow for sufficient contrast and moves on smaller screen sizes for compatibility.
+
+#### Desktop
+![](assets/ReadMeImages/hero-desktop.png)
+
+#### Mobile
+![](assets/ReadMeImages/hero-mobile.png)
