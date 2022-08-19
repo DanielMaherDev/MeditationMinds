@@ -54,7 +54,7 @@ ol li {
 }
 
 #main>section {
-    margin: 20 auto;
+    margin: 20px auto;
 }
 
 /* navigation */
@@ -207,7 +207,7 @@ hr {
     font-size: 1.5em !important;
     margin: 0 auto;
     border-bottom: none;
-    padding-bottom: 30px 0;
+    padding-bottom: 30px;
 }
 
 .about-us-grid>div h3 {

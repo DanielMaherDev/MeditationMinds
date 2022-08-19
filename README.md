@@ -112,23 +112,22 @@ The Typography used on the site was Oxygen Light 300 and was taken from [Google 
 I wanted the site to feel light, and spacious, and I feel this font allowed for this.
 
 The scheme of the colours used for the site is this:
-![](assets/ReadMeImages/color-pallete.png)
+![](assets/readmeimages/color-pallete.png)
 
 ## 5. Technology
 After studying the HTML and CSS essentials course with Code Institute, this project was created in Git pod using HTML and CSS languages.
+I have not imported any libraries , or used bootstrap for this site.
+There is also minimal JS used for the mobile navigation menu.
 
 ## 6. Testing
 **Code validation**
 **_HTML_**
-Two errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvan-essa.github.io%2FProject1_Metaverse%2F)
+No errors were returned when passing through the official W3C validator on any pages
+[Homepage](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanielmaherdev.github.io%2FMeditationMinds%2F)
+[Self-guided page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanielmaherdev.github.io%2FMeditationMinds%2Fselfguided.html)
+[Contact Us page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanielmaherdev.github.io%2FMeditationMinds%2Fcontact-us.html)
 
-![](assets/ReadMeImages/HTMLChecker.png)
-
-_Error 1_
-When coding the subject list on the Home Page, being featured in the same line was not the aim, rather than having points 1-3 to the first row and 4-5 to the second row. The only way it could be achieved was by adding the <br> element between them. Hence this bug was not fixed due to difficulties finding another way.
-
-_Error 2_
-This Error looked so strange due to misunderstanding the bug. The code was rewritten, checking online any similar issues, checking spelling mistakes, but no answer seemed to be valuable for this bug. The code was not removed since the fontawesome script had to be mentioned in the code.
+![](assets/readmeimages/html-validated.png)
 
 **_CSS_**
 No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvan-essa.github.io%2FProject1_Metaverse%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
