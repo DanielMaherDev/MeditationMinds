@@ -157,29 +157,11 @@ I have tested this site on multiple devices and browsers, and can confirm its fu
 - I also tested on multiple browsers within https://www.browserling.com/ and did not experience any issues
 
 ## 10. Deployment
-The site was built via Gitpod , and a local version of the site was used to check changes as they were being made. To do this I completed the following steps in Gitpod:
-- Go to terminal 
-- Git command: python3 -m http.server
-- A pop-up message will appear on the right-hand side where Open Browser should be clicked.
-- A new page opens where the site is available.
-
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-* In the GitHub repository, navigate to the Settings tab
-* From the source section drop-down menu, select the Master Branch
-* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-* The live link can be found here: https://van-essa.github.io/Project1_Metaverse/
+The site was built via Gitpod.
 
 ## 11. Credits
 
-**Content**
-* The text for the Home page was taken from [Virtual Speach Article](https://virtualspeech.com/blog/vr-applications)
-* The scroll left feature on Follow Us on Social Media was taken from this [Open Code Source](https://www.html.am/html-codes/marquees/html-scrolling-text.cfm)
-* The Metaverse list was inspired and used the code from this other [Open Code Source](https://codepen.io/vikassingh1111/pen/xBPmbL)
-* The icons in the footer were taken from Font Awesome
-* Instructions on how to implement the HTML and CSS code using GitHub was taken from the HTML and CSS course from Code Institute
-
-**Media**
-* The same photo used on the Home, About Us and Sign Up page are from This [Open Code Source Site](https://pixabay.com/photos/woman-headset-virtual-reality-vr-6882918/)
-* The image used on the About Us page was taken from this other open [Content Creation Source Site](https://www.canva.com/)
-* The video used on the Thank You page was taken from this other open [Content Creation Source Site](https://www.canva.com/)
-
+* The hamburger menu for mobile navigation was partly taken from [W3Schools]('https://www.w3schools.com/howto/howto_js_mobile_navbar.asp')
+* Any images used were taken from https://unsplash.com/
+* Grid CSS template was taken from https://cssgrid-generator.netlify.app/
+* All icons used were taken from Font Awesome
