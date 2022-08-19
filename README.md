@@ -124,63 +124,20 @@ There is also minimal JS used for the mobile navigation menu.
 **_HTML_**
 No errors were returned when passing through the official W3C validator on any pages
 [Homepage](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanielmaherdev.github.io%2FMeditationMinds%2F)
+
 [Self-guided page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanielmaherdev.github.io%2FMeditationMinds%2Fselfguided.html)
+
 [Contact Us page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanielmaherdev.github.io%2FMeditationMinds%2Fcontact-us.html)
+
 
 ![](assets/readmeimages/html-validated.png)
 
 **_CSS_**
-No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvan-essa.github.io%2FProject1_Metaverse%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdanielmaherdev.github.io%2FMeditationMinds%2Fcontact-us.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-![](assets/ReadMeImages/CSSWarnings.png)
+![](assets/readmeimages/css-validated.png)
 
-After checking online what the problem is and what this warning wants to communicate, the outcome was that the style sheet code did not respect the syntax of CSS and that there is nothing to do about this since those errors will help support browser compatibility efforts. Hence, the code is still there since the eye-catching list on Home Page would not be visible otherwise.
-
-## 7. Test cases
-It is tested by filling the Newsletter form, ensuring that the required information is filled and the message pops up if it is not filled in.
-The Newsletter form requires the Full Name of the Visiting User and the email address. If the visiting users do not share this information, then the visiting user can not subscribe.
-Testing filling the form in both Desktop and Mobile this is what happens:
-   - When the visiting user does not fill in their name
-   
-   Desktop
-
-   ![](assets/ReadMeImages/Notfillingname_Desktop.png)
-
-   Mobile
-
-   ![](assets/ReadMeImages/MobileName.PNG)
-
-   - When the visiting user does not fill in their surname
-   
-   Desktop
-
-   ![](assets/ReadMeImages/notfillingSurname_Desktop.png)
-   
-   Mobile
-
-   ![](assets/ReadMeImages/MobileSurname.PNG)
-
-   - When the visiting user does not fill in their email address
-   
-   Desktop
-
-   ![](assets/ReadMeImages/fillinEmail_Desktop.png)
-   
-   Mobile
-
-   ![](assets/ReadMeImages/MobileEmail.PNG)
-
-   - When the visiting user fills in all required information
-   
-   Desktop
-
-   ![](assets/ReadMeImages/thankyou_Desktop.png)
-   
-   Mobile
-
-   ![](assets/ReadMeImages/MobileThankYou.PNG)
-
-## 8. Unfixed Bugs
+## 8. Fixed Bugs
 The Unfixed bugs are Error 1 and Error 2 mentioned in teh code validation.
    
 ## 9. Supported screens and browsers 
@@ -192,7 +149,7 @@ The Unfixed bugs are Error 1 and Error 2 mentioned in teh code validation.
 - The screen size on the Desktop was 2560x1440.
 
 ## 10. Deployment
-The site was opened via Gitpud to check its process. The step to open that site is as follows:
+The site was opened via Gitpod to check its process. The step to open that site is as follows:
 * Go to terminal 
 * Git command: python3 -m http.server
 * A pop-up message will appear on the right-hand side where Open Browser should be clicked.
