@@ -138,22 +138,30 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 ![](assets/readmeimages/css-validated.png)
 
 ## 8. Fixed Bugs
-The Unfixed bugs are Error 1 and Error 2 mentioned in teh code validation.
-   
+I experienced a bug when creating the animation effect for the 'reset div on the homepage'. This animation gave the affect that the heading within this div scrolled out the right hand side of the div, and then scrolled back in the left side of the div.
+
+Bug: The text scrolled on top of other elements in the page it should not have
+Fix: I applied z-index: 2 styling to any sections of the page the scrolling text would have appeared on top of. This made it appear as wanted, as the text was behind these elements, and did not appear.
+
+Another issue experienced was with the images both on the homepage, and on the self guided page. These images were added later into the project, and due to this their bheaviour was not as expected. 
+Bug: When changing resolution of the screen the images would distort, overflow, or behave in other unexpected ways.
+Fix: I restructured both sections, to ensure that images were within containers. I then added neccessary media queries to ensure these images behaved expectedly across all screen sizes.
+
+
 ## 9. Supported screens and browsers 
-- The Chrome simulator was used from my mobile and desktop devices.
-- It was tested in Chrome simulator for both Mobile and Desktop
-- It was tested in Microsoft Edge simulator for Desktop
-- It was tested in Safari simulator for mobile 
-- The screen size on mobile was on iPhone 11 Pro, namely 5.8 inches, 84.4 cm2 (~82.1% screen-to-body ratio)
-- The screen size on the Desktop was 2560x1440.
+I have tested this site on multiple devices and browsers, and can confirm its full compatibility with:
+- Google Chrome Version 104.0.5112.101 (Official Build) (64-bit) on Windows 11
+- Google Chrome Version 104.0.5112.97 (Official Build) (64-bit) on Android
+- Microsoft Edge Version 104.0.1293.54 (Official build) (64-bit) on Windows 11
+- Safari Version 14.1.1 on MacOS
+- I also tested on multiple browsers within https://www.browserling.com/ and did not experience any issues
 
 ## 10. Deployment
-The site was opened via Gitpod to check its process. The step to open that site is as follows:
-* Go to terminal 
-* Git command: python3 -m http.server
-* A pop-up message will appear on the right-hand side where Open Browser should be clicked.
-* A new page opens where the site is available.
+The site was built via Gitpod , and a local version of the site was used to check changes as they were being made. To do this I completed the following steps in Gitpod:
+- Go to terminal 
+- Git command: python3 -m http.server
+- A pop-up message will appear on the right-hand side where Open Browser should be clicked.
+- A new page opens where the site is available.
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 * In the GitHub repository, navigate to the Settings tab
